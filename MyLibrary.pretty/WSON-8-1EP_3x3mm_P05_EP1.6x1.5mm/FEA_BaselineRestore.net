@@ -1,0 +1,3456 @@
+(export 
+  (version "E") 
+  (design 
+    (source "/Users/HAL9000/Dropbox (MIT)/KiCAD/MyLibrary.pretty/WSON-8-1EP_3x3mm_P05_EP1.6x1.5mm//FEA.kicad_sch") 
+    (date "Sunday, June 05, 2022 at 04:16:45 PM") 
+    (tool "Eeschema (6.0.5-0)") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title "Mainboard Analog Front End") 
+        (company "MIT -- KamLAND") 
+        (rev "v1") 
+        (date "2020-03-18") 
+        (source "FEA.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value "")))) 
+    (sheet 
+      (number "2") 
+      (name "/Amp1/") 
+      (tstamps "/00000000-0000-0000-0000-00005e95abf5/") 
+      (title_block 
+        (title "Mainboard Analog Front End") 
+        (company "MIT -- KamLAND") 
+        (rev "v1") 
+        (date "2020-03-18") 
+        (source "amp1.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "C1") 
+      (value "220n") 
+      (footprint "Capacitor_SMD:C_0402_1005Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000620f69db")) 
+    (comp 
+      (ref "C2") 
+      (value "6.7u") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd64b1")) 
+    (comp 
+      (ref "C3") 
+      (value "1u") 
+      (footprint "Capacitor_SMD:C_0805_2012Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060befebd")) 
+    (comp 
+      (ref "C4") 
+      (value "220n") 
+      (footprint "Capacitor_SMD:C_0402_1005Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000622b22ee")) 
+    (comp 
+      (ref "C5") 
+      (value "10nF") 
+      (footprint "Capacitor_SMD:C_0402_1005Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd6465")) 
+    (comp 
+      (ref "C6") 
+      (value "10uF") 
+      (footprint "Capacitor_SMD:C_0402_1005Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "6a2ae5b6-0474-4a78-be35-b23740b91086")) 
+    (comp 
+      (ref "C7") 
+      (value "10nF") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061bde550")) 
+    (comp 
+      (ref "C8") 
+      (value "220n") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000623625ef")) 
+    (comp 
+      (ref "C9") 
+      (value "0.1uF") 
+      (footprint "Capacitor_SMD:C_0402_1005Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "4cb50245-16fc-4156-9a94-8214e215fc75")) 
+    (comp 
+      (ref "C10") 
+      (value "10uF") 
+      (footprint "Capacitor_SMD:C_0603_1608Metric") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "07bf3faa-dcf9-4e83-ad39-6f4b7bf19c0c")) 
+    (comp 
+      (ref "C11") 
+      (value "0.1uF") 
+      (footprint "Hasung_Library:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "a67cd55c-aa52-4646-ac78-7633629c6ffe")) 
+    (comp 
+      (ref "C13") 
+      (value "10nF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd646b")) 
+    (comp 
+      (ref "C18") 
+      (value "6.7u") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd64be")) 
+    (comp 
+      (ref "C22") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006093578c")) 
+    (comp 
+      (ref "C23") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006093574d")) 
+    (comp 
+      (ref "C31") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060935776")) 
+    (comp 
+      (ref "C32") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060935753")) 
+    (comp 
+      (ref "C35") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006093579a")) 
+    (comp 
+      (ref "C39") 
+      (value "220n") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061de05cb")) 
+    (comp 
+      (ref "C52") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fb42")) 
+    (comp 
+      (ref "C53") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042faf0")) 
+    (comp 
+      (ref "C55") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fad6")) 
+    (comp 
+      (ref "C57") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042faf6")) 
+    (comp 
+      (ref "C58") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fb1c")) 
+    (comp 
+      (ref "C59") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fb50")) 
+    (comp 
+      (ref "C62") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061f9bb08")) 
+    (comp 
+      (ref "C135") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006070709a")) 
+    (comp 
+      (ref "C136") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006070707d")) 
+    (comp 
+      (ref "C145") 
+      (value "0.1uF") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060707083")) 
+    (comp 
+      (ref "C146") 
+      (value "10uF") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_C") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000607070a7")) 
+    (comp 
+      (ref "P2") 
+      (value "CONN_01X01") 
+      (footprint "MyFootprints:RF_Sheild_19.5x79") 
+      (libsource 
+        (lib "FEA-rescue") 
+        (part "CONN_01X01-conn") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00005f03a8f5")) 
+    (comp 
+      (ref "R1") 
+      (value "3.6k") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060befeac")) 
+    (comp 
+      (ref "R2") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061ec89ae")) 
+    (comp 
+      (ref "R3") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd6488")) 
+    (comp 
+      (ref "R4") 
+      (value "1k") 
+      (footprint "Capacitors_SMD:C_0603") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061bde56b")) 
+    (comp 
+      (ref "R5") 
+      (value "30") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd645e")) 
+    (comp 
+      (ref "R6") 
+      (value "392") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd6482")) 
+    (comp 
+      (ref "R7") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd6471")) 
+    (comp 
+      (ref "R8") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000623625f5")) 
+    (comp 
+      (ref "R9") 
+      (value "69.8") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006226b041")) 
+    (comp 
+      (ref "R10") 
+      (value "10k") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061e59c6c")) 
+    (comp 
+      (ref "R11") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061f077ff")) 
+    (comp 
+      (ref "R12") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006201657a")) 
+    (comp 
+      (ref "R13") 
+      (value "49.9") 
+      (footprint "Hasung_Library:C_0402") 
+      (libsource 
+        (lib "amp2-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "2dfb5bef-072b-417e-a268-868777d4f603")) 
+    (comp 
+      (ref "R14") 
+      (value "4k") 
+      (footprint "Hasung_Library:C_0402") 
+      (libsource 
+        (lib "amp2-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "f44fb201-b435-47ca-8611-d640705a65b9")) 
+    (comp 
+      (ref "R15") 
+      (value "1k") 
+      (footprint "Hasung_Library:C_0402") 
+      (libsource 
+        (lib "amp2-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "18261c9e-037c-4254-828f-3ce60d4df6e8")) 
+    (comp 
+      (ref "R16") 
+      (value "250k") 
+      (footprint "Hasung_Library:C_0402") 
+      (libsource 
+        (lib "amp2-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "5f3a7272-cb70-454c-be22-f6ad2fe52f03")) 
+    (comp 
+      (ref "R17") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609357b1")) 
+    (comp 
+      (ref "R20") 
+      (value "250") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609356fd")) 
+    (comp 
+      (ref "R21") 
+      (value "250") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060935721")) 
+    (comp 
+      (ref "R23") 
+      (value "22") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609356f0")) 
+    (comp 
+      (ref "R27") 
+      (value "22") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609357ec")) 
+    (comp 
+      (ref "R29") 
+      (value "250") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609356ea")) 
+    (comp 
+      (ref "R30") 
+      (value "120") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000609356e4")) 
+    (comp 
+      (ref "R32") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dbb25c")) 
+    (comp 
+      (ref "R33") 
+      (value "69.8") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061de1821")) 
+    (comp 
+      (ref "R41") 
+      (value "1.5") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000612facf0")) 
+    (comp 
+      (ref "R42") 
+      (value "3.6k") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000612fa7bf")) 
+    (comp 
+      (ref "R43") 
+      (value "69.8") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "") 
+        (part "device_R_1") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fb67")) 
+    (comp 
+      (ref "R44") 
+      (value "100") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fa9a")) 
+    (comp 
+      (ref "R45") 
+      (value "275") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fabe")) 
+    (comp 
+      (ref "R46") 
+      (value "22") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fa8d")) 
+    (comp 
+      (ref "R47") 
+      (value "22") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fad0")) 
+    (comp 
+      (ref "R48") 
+      (value "275") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fa87")) 
+    (comp 
+      (ref "R49") 
+      (value "100") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006042fa81")) 
+    (comp 
+      (ref "R84") 
+      (value "200") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060707071")) 
+    (comp 
+      (ref "R95") 
+      (value "NC") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060707047")) 
+    (comp 
+      (ref "R99") 
+      (value "1k") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006070706b")) 
+    (comp 
+      (ref "R100") 
+      (value "49.9") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006070705a")) 
+    (comp 
+      (ref "R102") 
+      (value "499") 
+      (footprint "Capacitors_SMD:C_0402") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "device_R") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000606a0315")) 
+    (comp 
+      (ref "U1") 
+      (value "lmh6552_wson") 
+      (footprint "Housings_SON:WSON8_4x4mm_Pitch0.8mm") 
+      (libsource 
+        (lib "FEA-rescue") 
+        (part "lmh6552_wson") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000062929aac")) 
+    (comp 
+      (ref "U2") 
+      (value "LMH6703") 
+      (footprint "TO_SOT_Packages_SMD:SOT-23-6") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_LMH6703") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061dd64d8")) 
+    (comp 
+      (ref "U3") 
+      (value "UMCC") 
+      (footprint "MyFootprints:UMCC") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_UMCC") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006274f9f5")) 
+    (comp 
+      (ref "U4") 
+      (value "UMCC") 
+      (footprint "MyFootprints:UMCC") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_UMCC") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000062798c3f")) 
+    (comp 
+      (ref "U5") 
+      (value "LTC6752-4") 
+      (footprint "Hasung_Library:LTC6752-4") 
+      (libsource 
+        (lib "Hasung_Library") 
+        (part "LTC6752-4") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "a65d31ba-082b-4e4d-b4fd-cfc57a038a7b")) 
+    (comp 
+      (ref "U6") 
+      (value "TS5A1066") 
+      (footprint "TO_SOT_Packages_SMD:SOT-23-5") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_TS5A1066") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061bde54a")) 
+    (comp 
+      (ref "U10") 
+      (value "Conn_2x10") 
+      (footprint "MyFootprints:DF12NC(5.0)-20DP-0.5V(51)") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_Conn_2x10") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061ad51c6")) 
+    (comp 
+      (ref "U11") 
+      (value "Conn_2x15") 
+      (footprint "MyFootprints:DF12NC(5.0)-30DP-0.5V(51)") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_Conn_2x15") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000061cdce8a")) 
+    (comp 
+      (ref "U12") 
+      (value "BAV99_high_speed_diode") 
+      (footprint "TO_SOT_Packages_SMD:SOT-23") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_BAV99_high_speed_diode") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000622b6fcc")) 
+    (comp 
+      (ref "U13") 
+      (value "BAV99s_dual_high_speed_diode") 
+      (footprint "TO_SOT_Packages_SMD:SOT-23-6") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_BAV99s_dual_high_speed_diode") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000623accb7")) 
+    (comp 
+      (ref "U14") 
+      (value "THS3091D") 
+      (footprint "MyFootprints:THS3491_HSOIC") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_THS3091D") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-00006216ce59")) 
+    (comp 
+      (ref "U15") 
+      (value "BAV99s_dual_high_speed_diode") 
+      (footprint "TO_SOT_Packages_SMD:SOT-23-6") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_BAV99s_dual_high_speed_diode") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-0000624a9cda")) 
+    (comp 
+      (ref "U36") 
+      (value "LMH6550") 
+      (footprint "Housings_SSOP:VSSOP-8_2.4x2.1mm_Pitch0.5mm") 
+      (libsource 
+        (lib "FEA-cache") 
+        (part "MyLibrary_LMH6550") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Amp1")) 
+      (property 
+        (name "Sheetfile") 
+        (value "amp1.kicad_sch")) 
+      (sheetpath 
+        (names "/Amp1/") 
+        (tstamps "/00000000-0000-0000-0000-00005e95abf5/")) 
+      (tstamps "00000000-0000-0000-0000-000060799b96"))) 
+  (libparts 
+    (libpart 
+      (lib "") 
+      (part "device_R_1") 
+      (footprints 
+        (fp "R_*") 
+        (fp "Resistor_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R43") 
+        (field 
+          (name "Value") "69.8") 
+        (field 
+          (name "Footprint") "Capacitors_SMD:C_0402")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_BAV99_high_speed_diode") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_BAV99_high_speed_diode")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_BAV99s_dual_high_speed_diode") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_BAV99s_dual_high_speed_diode")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_Conn_2x10") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_Conn_2x10")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "4") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "5") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "6") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "7") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "8") 
+          (type "input")) 
+        (pin 
+          (num "9") 
+          (name "9") 
+          (type "input")) 
+        (pin 
+          (num "10") 
+          (name "10") 
+          (type "input")) 
+        (pin 
+          (num "11") 
+          (name "11") 
+          (type "input")) 
+        (pin 
+          (num "12") 
+          (name "12") 
+          (type "input")) 
+        (pin 
+          (num "13") 
+          (name "13") 
+          (type "input")) 
+        (pin 
+          (num "14") 
+          (name "14") 
+          (type "input")) 
+        (pin 
+          (num "15") 
+          (name "15") 
+          (type "input")) 
+        (pin 
+          (num "16") 
+          (name "16") 
+          (type "input")) 
+        (pin 
+          (num "17") 
+          (name "17") 
+          (type "input")) 
+        (pin 
+          (num "18") 
+          (name "18") 
+          (type "input")) 
+        (pin 
+          (num "19") 
+          (name "19") 
+          (type "input")) 
+        (pin 
+          (num "20") 
+          (name "20") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_Conn_2x15") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_Conn_2x15")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "4") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "5") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "6") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "7") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "8") 
+          (type "input")) 
+        (pin 
+          (num "9") 
+          (name "9") 
+          (type "input")) 
+        (pin 
+          (num "10") 
+          (name "10") 
+          (type "input")) 
+        (pin 
+          (num "11") 
+          (name "11") 
+          (type "input")) 
+        (pin 
+          (num "12") 
+          (name "12") 
+          (type "input")) 
+        (pin 
+          (num "13") 
+          (name "13") 
+          (type "input")) 
+        (pin 
+          (num "14") 
+          (name "14") 
+          (type "input")) 
+        (pin 
+          (num "15") 
+          (name "15") 
+          (type "input")) 
+        (pin 
+          (num "16") 
+          (name "16") 
+          (type "input")) 
+        (pin 
+          (num "17") 
+          (name "17") 
+          (type "input")) 
+        (pin 
+          (num "18") 
+          (name "18") 
+          (type "input")) 
+        (pin 
+          (num "19") 
+          (name "19") 
+          (type "input")) 
+        (pin 
+          (num "20") 
+          (name "20") 
+          (type "input")) 
+        (pin 
+          (num "21") 
+          (name "21") 
+          (type "input")) 
+        (pin 
+          (num "22") 
+          (name "22") 
+          (type "input")) 
+        (pin 
+          (num "23") 
+          (name "23") 
+          (type "input")) 
+        (pin 
+          (num "24") 
+          (name "24") 
+          (type "input")) 
+        (pin 
+          (num "25") 
+          (name "25") 
+          (type "input")) 
+        (pin 
+          (num "26") 
+          (name "26") 
+          (type "input")) 
+        (pin 
+          (num "27") 
+          (name "27") 
+          (type "input")) 
+        (pin 
+          (num "28") 
+          (name "28") 
+          (type "input")) 
+        (pin 
+          (num "29") 
+          (name "29") 
+          (type "input")) 
+        (pin 
+          (num "30") 
+          (name "30") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_LMH6550") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_LMH6550")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "-IN") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "Vcm") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "V+") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "+OUT") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "-OUT") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "V-") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "EN") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "+IN") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_LMH6703") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_LMH6703")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "OUT") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "V-") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "+IN") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "-IN") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "NC") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "V+") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_THS3091D") 
+      (fields 
+        (field 
+          (name "Reference") "U14") 
+        (field 
+          (name "Value") "THS3091D") 
+        (field 
+          (name "Footprint") "MyFootprints:THS3491_HSOIC")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "NC") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "V_IN-") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "V_IN+") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "V_S-") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "NC") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "V_OUT") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "V_S+") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "NC") 
+          (type "input")) 
+        (pin 
+          (num "9") 
+          (name "PAD") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_TS5A1066") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_TS5A1066")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "NO") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "COM") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "GND") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "IN") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "V+") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "MyLibrary_UMCC") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "MyLibrary_UMCC")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "GND") 
+          (type "input")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "device_C") 
+      (footprints 
+        (fp "C?") 
+        (fp "C_????_*") 
+        (fp "C_????") 
+        (fp "SMD*_c") 
+        (fp "Capacitor*")) 
+      (fields 
+        (field 
+          (name "Reference") "C") 
+        (field 
+          (name "Value") "device_C")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "FEA-cache") 
+      (part "device_R") 
+      (footprints 
+        (fp "R_*") 
+        (fp "Resistor_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R") 
+        (field 
+          (name "Value") "device_R")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "FEA-rescue") 
+      (part "CONN_01X01-conn") 
+      (footprints 
+        (fp "Pin_Header_Straight_1X01") 
+        (fp "Pin_Header_Angled_1X01") 
+        (fp "Socket_Strip_Straight_1X01") 
+        (fp "Socket_Strip_Angled_1X01")) 
+      (fields 
+        (field 
+          (name "Reference") "P") 
+        (field 
+          (name "Value") "CONN_01X01-conn")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "P1") 
+          (type "passive")))) 
+    (libpart 
+      (lib "FEA-rescue") 
+      (part "lmh6552_wson") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "lmh6552_wson")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "-IN") 
+          (type "input")) 
+        (pin 
+          (num "2") 
+          (name "Vcm") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "V+") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "+OUT") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "-OUT") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "V-") 
+          (type "input")) 
+        (pin 
+          (num "7") 
+          (name "EN") 
+          (type "input")) 
+        (pin 
+          (num "8") 
+          (name "+IN") 
+          (type "input")) 
+        (pin 
+          (num "9") 
+          (name "GND") 
+          (type "input")))) 
+    (libpart 
+      (lib "Hasung_Library") 
+      (part "LTC6752-4") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "LTC6752-4")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Q") 
+          (type "output")) 
+        (pin 
+          (num "2") 
+          (name "VEE") 
+          (type "input")) 
+        (pin 
+          (num "3") 
+          (name "+IN") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "-IN") 
+          (type "input")) 
+        (pin 
+          (num "5") 
+          (name "") 
+          (type "input")) 
+        (pin 
+          (num "6") 
+          (name "VCC") 
+          (type "input")))) 
+    (libpart 
+      (lib "amp2-cache") 
+      (part "device_R") 
+      (footprints 
+        (fp "R_*") 
+        (fp "Resistor_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R") 
+        (field 
+          (name "Value") "device_R")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "FEA-rescue") 
+      (uri "/Users/HAL9000/Dropbox (MIT)/KamLAND/KiCAD/DaughterCard_Hasung/FEA-rescue.lib")) 
+    (library 
+      (logical "Hasung_Library") 
+      (uri "/Users/HAL9000/Dropbox (MIT)/KiCAD/Hasung_Library.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "-5V") 
+      (node 
+        (ref "C13") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C18") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C22") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C23") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C52") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C53") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C55") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C6") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C62") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C9") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R14") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "6") 
+        (pinfunction "V-") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "19") 
+        (pinfunction "19") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "20") 
+        (pinfunction "20") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "21") 
+        (pinfunction "21") 
+        (pintype "input")) 
+      (node 
+        (ref "U2") 
+        (pin "2") 
+        (pinfunction "V-") 
+        (pintype "input")) 
+      (node 
+        (ref "U36") 
+        (pin "6") 
+        (pinfunction "V-") 
+        (pintype "input")) 
+      (node 
+        (ref "U5") 
+        (pin "2") 
+        (pinfunction "VEE") 
+        (pintype "input"))) 
+    (net 
+      (code "2") 
+      (name "-10V") 
+      (node 
+        (ref "C135") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C136") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "24") 
+        (pinfunction "24") 
+        (pintype "input")) 
+      (node 
+        (ref "U12") 
+        (pin "1") 
+        (pintype "input")) 
+      (node 
+        (ref "U14") 
+        (pin "4") 
+        (pinfunction "V_S-") 
+        (pintype "input"))) 
+    (net 
+      (code "3") 
+      (name "/Amp1/Sig_in") 
+      (node 
+        (ref "R1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R41") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U10") 
+        (pin "17") 
+        (pinfunction "17") 
+        (pintype "input"))) 
+    (net 
+      (code "15") 
+      (name "5V") 
+      (node 
+        (ref "C10") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C11") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C2") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C32") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C35") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C5") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C55") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C57") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C59") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C62") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C7") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "3") 
+        (pinfunction "V+") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "16") 
+        (pinfunction "16") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "17") 
+        (pinfunction "17") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "18") 
+        (pinfunction "18") 
+        (pintype "input")) 
+      (node 
+        (ref "U2") 
+        (pin "6") 
+        (pinfunction "V+") 
+        (pintype "input")) 
+      (node 
+        (ref "U36") 
+        (pin "3") 
+        (pinfunction "V+") 
+        (pintype "input")) 
+      (node 
+        (ref "U5") 
+        (pin "6") 
+        (pinfunction "VCC") 
+        (pintype "input")) 
+      (node 
+        (ref "U6") 
+        (pin "5") 
+        (pinfunction "V+") 
+        (pintype "input"))) 
+    (net 
+      (code "16") 
+      (name "10V") 
+      (node 
+        (ref "C145") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C146") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "23") 
+        (pinfunction "23") 
+        (pintype "input")) 
+      (node 
+        (ref "U14") 
+        (pin "7") 
+        (pinfunction "V_S+") 
+        (pintype "input"))) 
+    (net 
+      (code "17") 
+      (name "Earth") 
+      (node 
+        (ref "C10") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C11") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C13") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C135") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C136") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C145") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C146") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C18") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C2") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C22") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C23") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C31") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C32") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C35") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C5") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C52") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C53") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C57") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C58") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C59") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C6") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "C7") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "C9") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "P2") 
+        (pin "1") 
+        (pinfunction "P1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R12") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R15") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R16") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R17") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R2") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R30") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R32") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R33") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R42") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R43") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R5") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R8") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R95") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "9") 
+        (pinfunction "GND") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "10") 
+        (pinfunction "10") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "11") 
+        (pinfunction "11") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "12") 
+        (pinfunction "12") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "13") 
+        (pinfunction "13") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "14") 
+        (pinfunction "14") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "15") 
+        (pinfunction "15") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "16") 
+        (pinfunction "16") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "18") 
+        (pinfunction "18") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "19") 
+        (pinfunction "19") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "20") 
+        (pinfunction "20") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "4") 
+        (pinfunction "4") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "5") 
+        (pinfunction "5") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "6") 
+        (pinfunction "6") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "7") 
+        (pinfunction "7") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "8") 
+        (pinfunction "8") 
+        (pintype "input")) 
+      (node 
+        (ref "U10") 
+        (pin "9") 
+        (pinfunction "9") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "12") 
+        (pinfunction "12") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "15") 
+        (pinfunction "15") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "22") 
+        (pinfunction "22") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "25") 
+        (pinfunction "25") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "26") 
+        (pinfunction "26") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "27") 
+        (pinfunction "27") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "30") 
+        (pinfunction "30") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "6") 
+        (pinfunction "6") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "9") 
+        (pinfunction "9") 
+        (pintype "input")) 
+      (node 
+        (ref "U12") 
+        (pin "2") 
+        (pintype "input")) 
+      (node 
+        (ref "U14") 
+        (pin "9") 
+        (pinfunction "PAD") 
+        (pintype "input")) 
+      (node 
+        (ref "U3") 
+        (pin "2") 
+        (pinfunction "GND") 
+        (pintype "input")) 
+      (node 
+        (ref "U4") 
+        (pin "2") 
+        (pinfunction "GND") 
+        (pintype "input")) 
+      (node 
+        (ref "U6") 
+        (pin "2") 
+        (pinfunction "COM") 
+        (pintype "input")) 
+      (node 
+        (ref "U6") 
+        (pin "3") 
+        (pinfunction "GND") 
+        (pintype "input"))) 
+    (net 
+      (code "18") 
+      (name "GND_D") 
+      (node 
+        (ref "U11") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "input"))) 
+    (net 
+      (code "19") 
+      (name "GPIO") 
+      (node 
+        (ref "R4") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "input"))) 
+    (net 
+      (code "20") 
+      (name "HGain_N") 
+      (node 
+        (ref "R47") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "8") 
+        (pinfunction "8") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "3") 
+        (pintype "input"))) 
+    (net 
+      (code "21") 
+      (name "HGain_P") 
+      (node 
+        (ref "R46") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "7") 
+        (pinfunction "7") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "6") 
+        (pintype "input"))) 
+    (net 
+      (code "22") 
+      (name "H_Bias") 
+      (node 
+        (ref "R9") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "4") 
+        (pinfunction "4") 
+        (pintype "input"))) 
+    (net 
+      (code "23") 
+      (name "H_VCOM") 
+      (node 
+        (ref "C58") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "2") 
+        (pinfunction "Vcm") 
+        (pintype "input")) 
+      (node 
+        (ref "U11") 
+        (pin "5") 
+        (pinfunction "5") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "1") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "2") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "4") 
+        (pintype "input")) 
+      (node 
+        (ref "U13") 
+        (pin "5") 
+        (pintype "input"))) 
+    (net 
+      (code "24") 
+      (name "LGain_N") 
+      (node 
+        (ref "R27") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "11") 
+        (pinfunction "11") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "3") 
+        (pintype "input"))) 
+    (net 
+      (code "25") 
+      (name "LGain_P") 
+      (node 
+        (ref "R23") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "10") 
+        (pinfunction "10") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "6") 
+        (pintype "input"))) 
+    (net 
+      (code "26") 
+      (name "L_Bias") 
+      (node 
+        (ref "R102") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "28") 
+        (pinfunction "28") 
+        (pintype "input"))) 
+    (net 
+      (code "27") 
+      (name "L_VCOM") 
+      (node 
+        (ref "C31") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "29") 
+        (pinfunction "29") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "1") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "2") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "4") 
+        (pintype "input")) 
+      (node 
+        (ref "U15") 
+        (pin "5") 
+        (pintype "input")) 
+      (node 
+        (ref "U36") 
+        (pin "2") 
+        (pinfunction "Vcm") 
+        (pintype "input"))) 
+    (net 
+      (code "28") 
+      (name "Net-(C1-Pad1)") 
+      (node 
+        (ref "C1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R10") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R43") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R44") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U4") 
+        (pin "1") 
+        (pintype "input"))) 
+    (net 
+      (code "29") 
+      (name "Net-(C1-Pad2)") 
+      (node 
+        (ref "C1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R7") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "30") 
+      (name "Net-(C3-Pad1)") 
+      (node 
+        (ref "C3") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R3") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R84") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U12") 
+        (pin "3") 
+        (pintype "input")) 
+      (node 
+        (ref "U6") 
+        (pin "1") 
+        (pinfunction "NO") 
+        (pintype "input"))) 
+    (net 
+      (code "31") 
+      (name "Net-(C3-Pad2)") 
+      (node 
+        (ref "C3") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R41") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R42") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "32") 
+      (name "Net-(C4-Pad1)") 
+      (node 
+        (ref "C4") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R11") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U3") 
+        (pin "1") 
+        (pintype "input"))) 
+    (net 
+      (code "33") 
+      (name "Net-(C4-Pad2)") 
+      (node 
+        (ref "C4") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R100") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R12") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "4") 
+        (pinfunction "-IN") 
+        (pintype "input"))) 
+    (net 
+      (code "34") 
+      (name "Net-(C8-Pad1)") 
+      (node 
+        (ref "C8") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R102") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R29") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R30") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U36") 
+        (pin "1") 
+        (pinfunction "-IN") 
+        (pintype "input"))) 
+    (net 
+      (code "35") 
+      (name "Net-(C8-Pad2)") 
+      (node 
+        (ref "C8") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R8") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "36") 
+      (name "Net-(C39-Pad1)") 
+      (node 
+        (ref "C39") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R33") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R49") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R9") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "37") 
+      (name "Net-(C39-Pad2)") 
+      (node 
+        (ref "C39") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R32") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "38") 
+      (name "Net-(R2-Pad2)") 
+      (node 
+        (ref "R2") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R84") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U14") 
+        (pin "3") 
+        (pinfunction "V_IN+") 
+        (pintype "input"))) 
+    (net 
+      (code "39") 
+      (name "Net-(R3-Pad1)") 
+      (node 
+        (ref "R3") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "3") 
+        (pinfunction "+IN") 
+        (pintype "input"))) 
+    (net 
+      (code "40") 
+      (name "Net-(R5-Pad2)") 
+      (node 
+        (ref "R5") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R6") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "4") 
+        (pinfunction "-IN") 
+        (pintype "input"))) 
+    (net 
+      (code "41") 
+      (name "Net-(R6-Pad1)") 
+      (node 
+        (ref "R6") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R7") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U2") 
+        (pin "1") 
+        (pinfunction "OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "42") 
+      (name "Net-(R11-Pad1)") 
+      (node 
+        (ref "R11") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R17") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R20") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "43") 
+      (name "Net-(R13-Pad1)") 
+      (node 
+        (ref "R13") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R14") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R15") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "3") 
+        (pinfunction "+IN") 
+        (pintype "input"))) 
+    (net 
+      (code "44") 
+      (name "Net-(R13-Pad2)") 
+      (node 
+        (ref "R13") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R4") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "1") 
+        (pinfunction "Q") 
+        (pintype "output")) 
+      (node 
+        (ref "U6") 
+        (pin "4") 
+        (pinfunction "IN") 
+        (pintype "input"))) 
+    (net 
+      (code "45") 
+      (name "Net-(R16-Pad1)") 
+      (node 
+        (ref "R16") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U5") 
+        (pin "5") 
+        (pintype "input"))) 
+    (net 
+      (code "46") 
+      (name "Net-(R20-Pad1)") 
+      (node 
+        (ref "R20") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R21") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U36") 
+        (pin "8") 
+        (pinfunction "+IN") 
+        (pintype "input"))) 
+    (net 
+      (code "47") 
+      (name "Net-(R21-Pad1)") 
+      (node 
+        (ref "R21") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R23") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U36") 
+        (pin "5") 
+        (pinfunction "-OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "48") 
+      (name "Net-(R27-Pad2)") 
+      (node 
+        (ref "R27") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R29") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U36") 
+        (pin "4") 
+        (pinfunction "+OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "49") 
+      (name "Net-(R44-Pad1)") 
+      (node 
+        (ref "R44") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R45") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "8") 
+        (pinfunction "+IN") 
+        (pintype "input"))) 
+    (net 
+      (code "50") 
+      (name "Net-(R45-Pad1)") 
+      (node 
+        (ref "R45") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R46") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "5") 
+        (pinfunction "-OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "51") 
+      (name "Net-(R47-Pad2)") 
+      (node 
+        (ref "R47") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R48") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "4") 
+        (pinfunction "+OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "52") 
+      (name "Net-(R48-Pad1)") 
+      (node 
+        (ref "R48") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R49") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "1") 
+        (pinfunction "-IN") 
+        (pintype "input"))) 
+    (net 
+      (code "53") 
+      (name "Net-(R95-Pad2)") 
+      (node 
+        (ref "R95") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R99") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U14") 
+        (pin "2") 
+        (pinfunction "V_IN-") 
+        (pintype "input"))) 
+    (net 
+      (code "54") 
+      (name "Net-(R100-Pad2)") 
+      (node 
+        (ref "R100") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R99") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U14") 
+        (pin "6") 
+        (pinfunction "V_OUT") 
+        (pintype "input"))) 
+    (net 
+      (code "55") 
+      (name "RFDAC_FB_N") 
+      (node 
+        (ref "U11") 
+        (pin "14") 
+        (pinfunction "14") 
+        (pintype "input"))) 
+    (net 
+      (code "56") 
+      (name "RFDAC_FB_P") 
+      (node 
+        (ref "R10") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U11") 
+        (pin "13") 
+        (pinfunction "13") 
+        (pintype "input"))) 
+    (net 
+      (code "57") 
+      (name "unconnected-(U1-Pad7)") 
+      (node 
+        (ref "U1") 
+        (pin "7") 
+        (pinfunction "EN") 
+        (pintype "input+no_connect"))) 
+    (net 
+      (code "58") 
+      (name "unconnected-(U2-Pad5)") 
+      (node 
+        (ref "U2") 
+        (pin "5") 
+        (pinfunction "NC") 
+        (pintype "input+no_connect"))) 
+    (net 
+      (code "59") 
+      (name "unconnected-(U14-Pad1)") 
+      (node 
+        (ref "U14") 
+        (pin "1") 
+        (pinfunction "NC") 
+        (pintype "input+no_connect"))) 
+    (net 
+      (code "60") 
+      (name "unconnected-(U14-Pad5)") 
+      (node 
+        (ref "U14") 
+        (pin "5") 
+        (pinfunction "NC") 
+        (pintype "input+no_connect"))) 
+    (net 
+      (code "61") 
+      (name "unconnected-(U14-Pad8)") 
+      (node 
+        (ref "U14") 
+        (pin "8") 
+        (pinfunction "NC") 
+        (pintype "input+no_connect"))) 
+    (net 
+      (code "62") 
+      (name "unconnected-(U36-Pad7)") 
+      (node 
+        (ref "U36") 
+        (pin "7") 
+        (pinfunction "EN") 
+        (pintype "input+no_connect")))))

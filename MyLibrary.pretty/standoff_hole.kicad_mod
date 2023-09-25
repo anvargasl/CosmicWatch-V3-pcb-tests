@@ -1,0 +1,9 @@
+(module standoff_hole (layer F.Cu) (tedit 5841CB16)
+  (fp_text reference REF** (at 0 2.9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value standoff_hole (at 0.1 -3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+)

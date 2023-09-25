@@ -1,0 +1,10 @@
+(module 2pin_1mm_narrow (layer F.Cu) (tedit 576AE3A3)
+  (fp_text reference P1 (at 0 1.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_01X02 (at 0 -2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -1.75 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 1.75 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)

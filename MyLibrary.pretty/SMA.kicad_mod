@@ -1,0 +1,13 @@
+(module SMA placed (layer F.Cu) (tedit 5E2CFB92)
+  (fp_text reference P2 (at 0.2 5.1) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value BNC (at -0.1 -2.9) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (pad 2 thru_hole circle (at -2.7 -2.6) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.45 -2.6) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.45 2.55) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at -2.7 2.55) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+)

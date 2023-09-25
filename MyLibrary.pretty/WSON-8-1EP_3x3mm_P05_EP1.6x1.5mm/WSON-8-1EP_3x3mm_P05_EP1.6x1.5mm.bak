@@ -1,0 +1,261 @@
+EESchema Schematic File Version 2
+LIBS:Mylibrary
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FEA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12450 450  0    60   ~ 0
+Keep power lines and gnd away from signal IO. Lower paracity capacitance.
+Text Notes 12450 600  0    60   ~ 0
+Move caps right next to power pins on op amp.
+Text Notes 12450 750  0    60   ~ 0
+Ground and power planes away from IO pins on op amp.
+Text Notes 12450 900  0    60   ~ 0
+Many supply should have docoubling cap. >6.8uF. Decoiupling tantalanum can be placed anywhere.\n
+Text Notes 12450 1050 0    60   ~ 0
+Make resistors SMT, keep them close to the op amp.
+Text GLabel 2150 3250 2    60   Input ~ 0
+VCC
+$Comp
+L BNC P2
+U 1 1 5DE7D116
+P 3900 2500
+F 0 "P2" H 3910 2620 50  0000 C CNN
+F 1 "BNC" V 4010 2440 50  0000 C CNN
+F 2 "MyFootprints:BNC_conn2" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0000 C CNN
+	1    3900 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2500 4400 2500
+Text Notes 4400 2200 0    60   ~ 0
+KamLAND\n\n
+Wire Wire Line
+	3900 2300 4250 2300
+Wire Wire Line
+	4250 2300 4250 2350
+Wire Wire Line
+	4250 2350 4400 2350
+$Comp
+L BNC P3
+U 1 1 5DE7D12A
+P 6100 2250
+F 0 "P3" H 6110 2370 50  0000 C CNN
+F 1 "BNC" V 6210 2190 50  0000 C CNN
+F 2 "MyFootprints:BNC_conn2" H 6100 2250 50  0001 C CNN
+F 3 "" H 6100 2250 50  0000 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P4
+U 1 1 5DE7D130
+P 6100 2850
+F 0 "P4" H 6110 2970 50  0000 C CNN
+F 1 "BNC" V 6210 2790 50  0000 C CNN
+F 2 "MyFootprints:BNC_conn2" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0000 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR01
+U 1 1 5DE7D136
+P 6100 3050
+F 0 "#PWR01" H 6100 2800 50  0001 C CNN
+F 1 "GNDA" H 6100 2900 50  0000 C CNN
+F 2 "" H 6100 3050 50  0000 C CNN
+F 3 "" H 6100 3050 50  0000 C CNN
+	1    6100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR02
+U 1 1 5DE7D13C
+P 6100 2450
+F 0 "#PWR02" H 6100 2200 50  0001 C CNN
+F 1 "GNDA" H 6100 2300 50  0000 C CNN
+F 2 "" H 6100 2450 50  0000 C CNN
+F 3 "" H 6100 2450 50  0000 C CNN
+	1    6100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2450 5700 2450
+Wire Wire Line
+	5700 2450 5700 2250
+Wire Wire Line
+	5700 2250 5950 2250
+Wire Wire Line
+	5450 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2850
+Wire Wire Line
+	5700 2850 5950 2850
+Wire Wire Line
+	5600 2050 5600 2300
+Wire Wire Line
+	5600 2300 5450 2300
+Wire Wire Line
+	5600 2750 5450 2750
+Wire Wire Line
+	5600 2750 5600 3150
+Text GLabel 2150 3050 2    60   Input ~ 0
+-VCC
+$Comp
+L GNDA #PWR03
+U 1 1 5DE76280
+P 1800 3150
+F 0 "#PWR03" H 1800 2900 50  0001 C CNN
+F 1 "GNDA" H 1800 3000 50  0000 C CNN
+F 2 "" H 1800 3150 50  0000 C CNN
+F 3 "" H 1800 3150 50  0000 C CNN
+	1    1800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 3250 2150 3250
+Wire Wire Line
+	1250 3050 2150 3050
+$Comp
+L GNDA #PWR04
+U 1 1 5DEA0BB0
+P 1800 2950
+F 0 "#PWR04" H 1800 2700 50  0001 C CNN
+F 1 "GNDA" H 1800 2800 50  0000 C CNN
+F 2 "" H 1800 2950 50  0000 C CNN
+F 3 "" H 1800 2950 50  0000 C CNN
+	1    1800 2950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1250 2750 2    60   Input ~ 0
+DAC0
+Text GLabel 1250 2850 2    60   Input ~ 0
+DAC1
+Text Notes 1750 1250 0    60   ~ 0
+Input from DAC
+Text Notes 1550 2400 0    60   ~ 0
+Precision power input\n
+$Sheet
+S 4400 2200 1050 650 
+U 5DE7D121
+F0 "PRECISION" 60
+F1 "sh_amp_1.sch" 60
+F2 "Sig_In" I L 4400 2500 60 
+F3 "out+" I R 5450 2450 60 
+F4 "out-" I R 5450 2600 60 
+F5 "bias+" I R 5450 2300 60 
+F6 "bias-" I R 5450 2750 60 
+F7 "Sig_GND" I L 4400 2350 60 
+$EndSheet
+$Comp
+L GNDA #PWR05
+U 1 1 5DEDC77E
+P 2100 2650
+F 0 "#PWR05" H 2100 2400 50  0001 C CNN
+F 1 "GNDA" H 2100 2500 50  0000 C CNN
+F 2 "" H 2100 2650 50  0000 C CNN
+F 3 "" H 2100 2650 50  0000 C CNN
+	1    2100 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR06
+U 1 1 5DEDC813
+P 2100 3650
+F 0 "#PWR06" H 2100 3400 50  0001 C CNN
+F 1 "GNDA" H 2100 3500 50  0000 C CNN
+F 2 "" H 2100 3650 50  0000 C CNN
+F 3 "" H 2100 3650 50  0000 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2950 2100 3050
+Connection ~ 2100 3050
+Wire Wire Line
+	2100 3350 2100 3250
+Connection ~ 2100 3250
+$Comp
+L CP1 C1
+U 1 1 5DEDCFCF
+P 2100 2800
+F 0 "C1" H 2125 2900 50  0000 L CNN
+F 1 "CP1" H 2125 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0000 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 5DEDD042
+P 2100 3500
+F 0 "C2" H 2125 3600 50  0000 L CNN
+F 1 "CP1" H 2125 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2100 3500 50  0001 C CNN
+F 3 "" H 2100 3500 50  0000 C CNN
+	1    2100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P1
+U 1 1 5DF99028
+P 1050 3000
+F 0 "P1" H 1050 3350 50  0000 C CNN
+F 1 "CONN_01X06" V 1150 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1050 3000 50  0001 C CNN
+F 3 "" H 1050 3000 50  0000 C CNN
+	1    1050 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 2950 1800 2950
+Wire Wire Line
+	1250 3150 1800 3150
+Text GLabel 5600 2050 1    60   Input ~ 0
+DAC1
+Text GLabel 5600 3150 3    60   Input ~ 0
+DAC0
+$EndSCHEMATC

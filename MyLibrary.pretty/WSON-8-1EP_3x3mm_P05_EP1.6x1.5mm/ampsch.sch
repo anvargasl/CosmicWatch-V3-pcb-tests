@@ -1,0 +1,1993 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:R R?
+U 1 1 5E987691
+P 2300 4700
+AR Path="/5DE7D121/5E987691" Ref="R?"  Part="1" 
+AR Path="/5E987691" Ref="R1"  Part="1" 
+AR Path="/5E95ABF5/5E987691" Ref="R5"  Part="1" 
+AR Path="/5EAA982A/5E987691" Ref="R39"  Part="1" 
+AR Path="/5EABD56D/5E987691" Ref="R81"  Part="1" 
+F 0 "R5" V 2380 4700 50  0000 C CNN
+F 1 "49.9" V 2300 4700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2230 4700 50  0001 C CNN
+F 3 "" H 2300 4700 50  0000 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E987697
+P 3400 3550
+AR Path="/5DE7D121/5E987697" Ref="C?"  Part="1" 
+AR Path="/5E987697" Ref="C4"  Part="1" 
+AR Path="/5E95ABF5/5E987697" Ref="C6"  Part="1" 
+AR Path="/5EAA982A/5E987697" Ref="C43"  Part="1" 
+AR Path="/5EABD56D/5E987697" Ref="C67"  Part="1" 
+F 0 "C6" H 3425 3650 50  0000 L CNN
+F 1 "0.1uF" V 3350 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3438 3400 50  0001 C CNN
+F 3 "" H 3400 3550 50  0000 C CNN
+	1    3400 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E98769D
+P 3400 5000
+AR Path="/5DE7D121/5E98769D" Ref="R?"  Part="1" 
+AR Path="/5E98769D" Ref="R4"  Part="1" 
+AR Path="/5E95ABF5/5E98769D" Ref="R8"  Part="1" 
+AR Path="/5EAA982A/5E98769D" Ref="R50"  Part="1" 
+AR Path="/5EABD56D/5E98769D" Ref="R84"  Part="1" 
+F 0 "R8" V 3480 5000 50  0000 C CNN
+F 1 "249" V 3400 5000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 3330 5000 50  0001 C CNN
+F 3 "" H 3400 5000 50  0000 C CNN
+	1    3400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876A3
+P 4250 4450
+AR Path="/5DE7D121/5E9876A3" Ref="R?"  Part="1" 
+AR Path="/5E9876A3" Ref="R5"  Part="1" 
+AR Path="/5E95ABF5/5E9876A3" Ref="R9"  Part="1" 
+AR Path="/5EAA982A/5E9876A3" Ref="R51"  Part="1" 
+AR Path="/5EABD56D/5E9876A3" Ref="R85"  Part="1" 
+F 0 "R9" V 4330 4450 50  0000 C CNN
+F 1 "49.9" V 4250 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 4180 4450 50  0001 C CNN
+F 3 "" H 4250 4450 50  0000 C CNN
+	1    4250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9876A9
+P 11500 3300
+AR Path="/5DE7D121/5E9876A9" Ref="C?"  Part="1" 
+AR Path="/5E9876A9" Ref="C15"  Part="1" 
+AR Path="/5E95ABF5/5E9876A9" Ref="C18"  Part="1" 
+AR Path="/5EAA982A/5E9876A9" Ref="C55"  Part="1" 
+AR Path="/5EABD56D/5E9876A9" Ref="C79"  Part="1" 
+F 0 "C18" H 11525 3400 50  0000 L CNN
+F 1 "0.01uF" H 11525 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11538 3150 50  0001 C CNN
+F 3 "" H 11500 3300 50  0000 C CNN
+	1    11500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mylibrary:LMH6550 U?
+U 1 1 5E9876AF
+P 12300 4050
+AR Path="/5DE7D121/5E9876AF" Ref="U?"  Part="1" 
+AR Path="/5E9876AF" Ref="U4"  Part="1" 
+AR Path="/5E95ABF5/5E9876AF" Ref="U6"  Part="1" 
+AR Path="/5EAA982A/5E9876AF" Ref="U10"  Part="1" 
+AR Path="/5EABD56D/5E9876AF" Ref="U14"  Part="1" 
+F 0 "U6" H 12300 4350 60  0000 C CNN
+F 1 "LMH6550" H 12300 3750 60  0000 C CNN
+F 2 "MyFootprints:LMH6550" H 12300 4050 60  0001 C CNN
+F 3 "" H 12300 4050 60  0000 C CNN
+	1    12300 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876B5
+P 14100 4400
+AR Path="/5DE7D121/5E9876B5" Ref="R?"  Part="1" 
+AR Path="/5E9876B5" Ref="R34"  Part="1" 
+AR Path="/5E95ABF5/5E9876B5" Ref="R38"  Part="1" 
+AR Path="/5EAA982A/5E9876B5" Ref="R80"  Part="1" 
+AR Path="/5EABD56D/5E9876B5" Ref="R114"  Part="1" 
+F 0 "R38" V 14180 4400 50  0000 C CNN
+F 1 "1k" V 14100 4400 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 14030 4400 50  0001 C CNN
+F 3 "" H 14100 4400 50  0000 C CNN
+	1    14100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9876BB
+P 14350 4400
+AR Path="/5DE7D121/5E9876BB" Ref="C?"  Part="1" 
+AR Path="/5E9876BB" Ref="C22"  Part="1" 
+AR Path="/5E95ABF5/5E9876BB" Ref="C26"  Part="1" 
+AR Path="/5EAA982A/5E9876BB" Ref="C63"  Part="1" 
+AR Path="/5EABD56D/5E9876BB" Ref="C87"  Part="1" 
+F 0 "C26" H 14375 4500 50  0000 L CNN
+F 1 "0.1uF" H 14375 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 14388 4250 50  0001 C CNN
+F 3 "" H 14350 4400 50  0000 C CNN
+	1    14350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876C1
+P 13400 4550
+AR Path="/5DE7D121/5E9876C1" Ref="R?"  Part="1" 
+AR Path="/5E9876C1" Ref="R33"  Part="1" 
+AR Path="/5E95ABF5/5E9876C1" Ref="R37"  Part="1" 
+AR Path="/5EAA982A/5E9876C1" Ref="R79"  Part="1" 
+AR Path="/5EABD56D/5E9876C1" Ref="R113"  Part="1" 
+F 0 "R37" V 13480 4550 50  0000 C CNN
+F 1 "169 0.1%" V 13600 4350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 13330 4550 50  0001 C CNN
+F 3 "" H 13400 4550 50  0000 C CNN
+	1    13400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9876C7
+P 13150 3300
+AR Path="/5DE7D121/5E9876C7" Ref="C?"  Part="1" 
+AR Path="/5E9876C7" Ref="C19"  Part="1" 
+AR Path="/5E95ABF5/5E9876C7" Ref="C23"  Part="1" 
+AR Path="/5EAA982A/5E9876C7" Ref="C60"  Part="1" 
+AR Path="/5EABD56D/5E9876C7" Ref="C84"  Part="1" 
+F 0 "C23" H 13175 3400 50  0000 L CNN
+F 1 "0.01uF" H 13175 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 13188 3150 50  0001 C CNN
+F 3 "" H 13150 3300 50  0000 C CNN
+	1    13150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876CD
+P 13100 4050
+AR Path="/5DE7D121/5E9876CD" Ref="R?"  Part="1" 
+AR Path="/5E9876CD" Ref="R31"  Part="1" 
+AR Path="/5E95ABF5/5E9876CD" Ref="R35"  Part="1" 
+AR Path="/5EAA982A/5E9876CD" Ref="R77"  Part="1" 
+AR Path="/5EABD56D/5E9876CD" Ref="R111"  Part="1" 
+F 0 "R35" V 13180 4050 50  0000 C CNN
+F 1 "357 0.1%" V 13000 4050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 13030 4050 50  0001 C CNN
+F 3 "" H 13100 4050 50  0000 C CNN
+	1    13100 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876D3
+P 12650 4950
+AR Path="/5DE7D121/5E9876D3" Ref="R?"  Part="1" 
+AR Path="/5E9876D3" Ref="R26"  Part="1" 
+AR Path="/5E95ABF5/5E9876D3" Ref="R30"  Part="1" 
+AR Path="/5EAA982A/5E9876D3" Ref="R72"  Part="1" 
+AR Path="/5EABD56D/5E9876D3" Ref="R106"  Part="1" 
+F 0 "R30" V 12730 4950 50  0000 C CNN
+F 1 "125" V 12650 4950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 12580 4950 50  0001 C CNN
+F 3 "" H 12650 4950 50  0000 C CNN
+	1    12650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9876D9
+P 11750 4650
+AR Path="/5DE7D121/5E9876D9" Ref="R?"  Part="1" 
+AR Path="/5E9876D9" Ref="R23"  Part="1" 
+AR Path="/5E95ABF5/5E9876D9" Ref="R27"  Part="1" 
+AR Path="/5EAA982A/5E9876D9" Ref="R69"  Part="1" 
+AR Path="/5EABD56D/5E9876D9" Ref="R103"  Part="1" 
+F 0 "R27" V 11830 4650 50  0000 C CNN
+F 1 "125" V 11750 4650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 11680 4650 50  0001 C CNN
+F 3 "" H 11750 4650 50  0000 C CNN
+	1    11750 4650
+	-1   0    0    1   
+$EndComp
+Text Notes 10100 1550 0    100  ~ 20
+Single-ended input to differential output amplifier \n
+$Comp
+L device:D_Schottky_x2_Serial_KAC D?
+U 1 1 5E9876E0
+P 2350 5800
+AR Path="/5DE7D121/5E9876E0" Ref="D?"  Part="1" 
+AR Path="/5E9876E0" Ref="D1"  Part="1" 
+AR Path="/5E95ABF5/5E9876E0" Ref="D1"  Part="1" 
+AR Path="/5EAA982A/5E9876E0" Ref="D2"  Part="1" 
+AR Path="/5EABD56D/5E9876E0" Ref="D3"  Part="1" 
+F 0 "D1" H 2400 5700 50  0000 C CNN
+F 1 "RB706D" H 2350 5900 50  0000 C CNN
+F 2 "MyFootprints:RB706D" H 2350 5800 50  0001 C CNN
+F 3 "" H 2350 5800 50  0000 C CNN
+	1    2350 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 2350 5500 1    60   Input ~ 0
+5V
+$Comp
+L device:R R?
+U 1 1 5E9876E7
+P 2550 4450
+AR Path="/5DE7D121/5E9876E7" Ref="R?"  Part="1" 
+AR Path="/5E9876E7" Ref="R2"  Part="1" 
+AR Path="/5E95ABF5/5E9876E7" Ref="R6"  Part="1" 
+AR Path="/5EAA982A/5E9876E7" Ref="R48"  Part="1" 
+AR Path="/5EABD56D/5E9876E7" Ref="R82"  Part="1" 
+F 0 "R6" V 2630 4450 50  0000 C CNN
+F 1 "49.9" V 2550 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2480 4450 50  0001 C CNN
+F 3 "" H 2550 4450 50  0000 C CNN
+	1    2550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9876ED
+P 4250 3650
+AR Path="/5DE7D121/5E9876ED" Ref="C?"  Part="1" 
+AR Path="/5E9876ED" Ref="C5"  Part="1" 
+AR Path="/5E95ABF5/5E9876ED" Ref="C7"  Part="1" 
+AR Path="/5EAA982A/5E9876ED" Ref="C44"  Part="1" 
+AR Path="/5EABD56D/5E9876ED" Ref="C68"  Part="1" 
+F 0 "C7" H 4275 3750 50  0000 L CNN
+F 1 "10nF" H 4275 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4288 3500 50  0001 C CNN
+F 3 "" H 4250 3650 50  0000 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9876F3
+P 2600 3650
+AR Path="/5DE7D121/5E9876F3" Ref="C?"  Part="1" 
+AR Path="/5E9876F3" Ref="C1"  Part="1" 
+AR Path="/5E95ABF5/5E9876F3" Ref="C3"  Part="1" 
+AR Path="/5EAA982A/5E9876F3" Ref="C27"  Part="1" 
+AR Path="/5EABD56D/5E9876F3" Ref="C64"  Part="1" 
+F 0 "C3" H 2625 3750 50  0000 L CNN
+F 1 "10nF" H 2650 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2638 3500 50  0001 C CNN
+F 3 "" H 2600 3650 50  0000 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4550 2300 4450
+Wire Wire Line
+	2600 3800 2600 3900
+Wire Notes Line
+	2000 6400 2000 1600
+Wire Wire Line
+	2100 5800 2100 4450
+Text Notes 4050 4350 0    60   ~ 12
+R-isolation
+Text Notes 3150 4900 0    60   ~ 12
+R-feedback
+Wire Wire Line
+	11500 3150 11500 3100
+Wire Wire Line
+	13150 3100 13150 3150
+Wire Wire Line
+	12900 3500 13150 3500
+Wire Wire Line
+	13150 3450 13150 3500
+Wire Wire Line
+	11700 3500 11500 3500
+Wire Wire Line
+	11500 3500 11500 3450
+Wire Wire Line
+	14350 4250 14350 4100
+Wire Wire Line
+	14100 4250 14100 4100
+Connection ~ 14100 4100
+Wire Wire Line
+	14100 4100 14350 4100
+$Comp
+L device:R R?
+U 1 1 5E987714
+P 11050 4200
+AR Path="/5DE7D121/5E987714" Ref="R?"  Part="1" 
+AR Path="/5E987714" Ref="R19"  Part="1" 
+AR Path="/5E95ABF5/5E987714" Ref="R23"  Part="1" 
+AR Path="/5EAA982A/5E987714" Ref="R65"  Part="1" 
+AR Path="/5EABD56D/5E987714" Ref="R99"  Part="1" 
+F 0 "R23" V 11130 4200 50  0000 C CNN
+F 1 "169 0.1%" V 10950 4200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10980 4200 50  0001 C CNN
+F 3 "" H 11050 4200 50  0000 C CNN
+	1    11050 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 4450 2300 4450
+$Comp
+L device:R R?
+U 1 1 5E987725
+P 10800 4450
+AR Path="/5DE7D121/5E987725" Ref="R?"  Part="1" 
+AR Path="/5E987725" Ref="R18"  Part="1" 
+AR Path="/5E95ABF5/5E987725" Ref="R22"  Part="1" 
+AR Path="/5EAA982A/5E987725" Ref="R64"  Part="1" 
+AR Path="/5EABD56D/5E987725" Ref="R98"  Part="1" 
+F 0 "R22" V 10880 4450 50  0000 C CNN
+F 1 "49.9" V 10700 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10730 4450 50  0001 C CNN
+F 3 "" H 10800 4450 50  0000 C CNN
+	1    10800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0101
+U 1 1 5E98772B
+P 2300 4850
+AR Path="/5E98772B" Ref="#PWR0101"  Part="1" 
+AR Path="/5E95ABF5/5E98772B" Ref="#PWR0103"  Part="1" 
+AR Path="/5EAA982A/5E98772B" Ref="#PWR0130"  Part="1" 
+AR Path="/5EABD56D/5E98772B" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0103" H 2300 4600 50  0001 C CNN
+F 1 "Earth" H 2300 4700 50  0001 C CNN
+F 2 "" H 2300 4850 50  0000 C CNN
+F 3 "" H 2300 4850 50  0000 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0102
+U 1 1 5E987731
+P 2350 6100
+AR Path="/5E987731" Ref="#PWR0102"  Part="1" 
+AR Path="/5E95ABF5/5E987731" Ref="#PWR0104"  Part="1" 
+AR Path="/5EAA982A/5E987731" Ref="#PWR0131"  Part="1" 
+AR Path="/5EABD56D/5E987731" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0104" H 2350 5850 50  0001 C CNN
+F 1 "Earth" H 2350 5950 50  0001 C CNN
+F 2 "" H 2350 6100 50  0000 C CNN
+F 3 "" H 2350 6100 50  0000 C CNN
+	1    2350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0103
+U 1 1 5E987737
+P 10800 4750
+AR Path="/5E987737" Ref="#PWR0103"  Part="1" 
+AR Path="/5E95ABF5/5E987737" Ref="#PWR0105"  Part="1" 
+AR Path="/5EAA982A/5E987737" Ref="#PWR0132"  Part="1" 
+AR Path="/5EABD56D/5E987737" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0105" H 10800 4500 50  0001 C CNN
+F 1 "Earth" H 10800 4600 50  0001 C CNN
+F 2 "" H 10800 4750 50  0000 C CNN
+F 3 "" H 10800 4750 50  0000 C CNN
+	1    10800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0104
+U 1 1 5E98773D
+P 13400 4700
+AR Path="/5E98773D" Ref="#PWR0104"  Part="1" 
+AR Path="/5E95ABF5/5E98773D" Ref="#PWR0106"  Part="1" 
+AR Path="/5EAA982A/5E98773D" Ref="#PWR0133"  Part="1" 
+AR Path="/5EABD56D/5E98773D" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0106" H 13400 4450 50  0001 C CNN
+F 1 "Earth" H 13400 4550 50  0001 C CNN
+F 2 "" H 13400 4700 50  0000 C CNN
+F 3 "" H 13400 4700 50  0000 C CNN
+	1    13400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0105
+U 1 1 5E987743
+P 14350 4550
+AR Path="/5E987743" Ref="#PWR0105"  Part="1" 
+AR Path="/5E95ABF5/5E987743" Ref="#PWR0107"  Part="1" 
+AR Path="/5EAA982A/5E987743" Ref="#PWR0134"  Part="1" 
+AR Path="/5EABD56D/5E987743" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0107" H 14350 4300 50  0001 C CNN
+F 1 "Earth" H 14350 4400 50  0001 C CNN
+F 2 "" H 14350 4550 50  0000 C CNN
+F 3 "" H 14350 4550 50  0000 C CNN
+	1    14350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0106
+U 1 1 5E987749
+P 14100 4550
+AR Path="/5E987749" Ref="#PWR0106"  Part="1" 
+AR Path="/5E95ABF5/5E987749" Ref="#PWR0108"  Part="1" 
+AR Path="/5EAA982A/5E987749" Ref="#PWR0135"  Part="1" 
+AR Path="/5EABD56D/5E987749" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0108" H 14100 4300 50  0001 C CNN
+F 1 "Earth" H 14100 4400 50  0001 C CNN
+F 2 "" H 14100 4550 50  0000 C CNN
+F 3 "" H 14100 4550 50  0000 C CNN
+	1    14100 4550
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 6300 2    60   ~ 12
+Amp options:\nLMH6702 (+/-6V)\n
+Text Notes 10150 6250 0    60   ~ 12
+Amp options:\nLMH6550\nLMH6552\nADA4940\n
+Wire Wire Line
+	4750 4550 4750 4450
+Text Notes 6400 1550 0    100  ~ 20
+Non-inverting Amplifier
+Wire Notes Line
+	8950 6400 5850 6400
+Wire Notes Line
+	5850 6400 5850 1600
+$Comp
+L device:C C?
+U 1 1 5E9877A4
+P 5000 4450
+AR Path="/5DE7D121/5E9877A4" Ref="C?"  Part="1" 
+AR Path="/5E9877A4" Ref="C6"  Part="1" 
+AR Path="/5E95ABF5/5E9877A4" Ref="C8"  Part="1" 
+AR Path="/5EAA982A/5E9877A4" Ref="C45"  Part="1" 
+AR Path="/5EABD56D/5E9877A4" Ref="C69"  Part="1" 
+F 0 "C8" H 5025 4550 50  0000 L CNN
+F 1 "100uF" H 5025 4350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5038 4300 50  0001 C CNN
+F 3 "" H 5000 4450 50  0000 C CNN
+	1    5000 4450
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	10100 1600 14000 1600
+Wire Notes Line
+	10100 1600 10100 6400
+Wire Notes Line
+	14000 6400 14000 1600
+$Comp
+L device:R R?
+U 1 1 5E9877E0
+P 11600 6050
+AR Path="/5DE7D121/5E9877E0" Ref="R?"  Part="1" 
+AR Path="/5E9877E0" Ref="R21"  Part="1" 
+AR Path="/5E95ABF5/5E9877E0" Ref="R25"  Part="1" 
+AR Path="/5EAA982A/5E9877E0" Ref="R67"  Part="1" 
+AR Path="/5EABD56D/5E9877E0" Ref="R101"  Part="1" 
+F 0 "R25" V 11680 6050 50  0000 C CNN
+F 1 "49.9" V 11600 6050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 11530 6050 50  0001 C CNN
+F 3 "" H 11600 6050 50  0000 C CNN
+	1    11600 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11450 6050 0    50   Input ~ 0
+BiasP
+Text GLabel 13200 6050 2    50   Input ~ 0
+BiasM
+Wire Wire Line
+	2150 5800 2100 5800
+$Comp
+L device:R R?
+U 1 1 5E987811
+P 4750 4700
+AR Path="/5DE7D121/5E987811" Ref="R?"  Part="1" 
+AR Path="/5E987811" Ref="R6"  Part="1" 
+AR Path="/5E95ABF5/5E987811" Ref="R10"  Part="1" 
+AR Path="/5EAA982A/5E987811" Ref="R52"  Part="1" 
+AR Path="/5EABD56D/5E987811" Ref="R86"  Part="1" 
+F 0 "R10" V 4830 4700 50  0000 C CNN
+F 1 "na" V 4750 4700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 4680 4700 50  0001 C CNN
+F 3 "" H 4750 4700 50  0000 C CNN
+	1    4750 4700
+	-1   0    0    1   
+$EndComp
+Text Notes 4850 4700 0    60   ~ 12
+CBLR
+Wire Wire Line
+	3850 4350 4000 4350
+Text Notes 3000 1550 0    100  ~ 20
+Inverting Amplifier
+Connection ~ 2300 4450
+Wire Wire Line
+	2300 4450 2400 4450
+Text GLabel 2850 2750 1    60   Input ~ 0
+5V
+Text GLabel 4000 2750 1    60   Input ~ 0
+-5V
+Text Notes 3050 3800 0    30   Italic 0
+C accross power supply reduces \n2nd order harmonic distortion.
+Text Notes 2950 4950 0    30   Italic 0
+Rf optimized to be 237 for LMH6702
+Text Notes 3850 4400 0    30   Italic 0
+R-iso important for any capacitive load
+Text Notes 5200 4900 2    30   Italic 0
+This might be a small capacitor.
+$Comp
+L power:Earth #PWR0109
+U 1 1 5E98786F
+P 4750 4850
+AR Path="/5E98786F" Ref="#PWR0109"  Part="1" 
+AR Path="/5E95ABF5/5E98786F" Ref="#PWR0112"  Part="1" 
+AR Path="/5EAA982A/5E98786F" Ref="#PWR0139"  Part="1" 
+AR Path="/5EABD56D/5E98786F" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0112" H 4750 4600 50  0001 C CNN
+F 1 "Earth" H 4750 4700 50  0001 C CNN
+F 2 "" H 4750 4850 50  0000 C CNN
+F 3 "" H 4750 4850 50  0000 C CNN
+	1    4750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0110
+U 1 1 5E987875
+P 2600 3500
+AR Path="/5E987875" Ref="#PWR0110"  Part="1" 
+AR Path="/5E95ABF5/5E987875" Ref="#PWR0113"  Part="1" 
+AR Path="/5EAA982A/5E987875" Ref="#PWR0140"  Part="1" 
+AR Path="/5EABD56D/5E987875" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0113" H 2600 3250 50  0001 C CNN
+F 1 "Earth" H 2600 3350 50  0001 C CNN
+F 2 "" H 2600 3500 50  0000 C CNN
+F 3 "" H 2600 3500 50  0000 C CNN
+	1    2600 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0111
+U 1 1 5E98787B
+P 4250 3500
+AR Path="/5E98787B" Ref="#PWR0111"  Part="1" 
+AR Path="/5E95ABF5/5E98787B" Ref="#PWR0114"  Part="1" 
+AR Path="/5EAA982A/5E98787B" Ref="#PWR0141"  Part="1" 
+AR Path="/5EABD56D/5E98787B" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0114" H 4250 3250 50  0001 C CNN
+F 1 "Earth" H 4250 3350 50  0001 C CNN
+F 2 "" H 4250 3500 50  0000 C CNN
+F 3 "" H 4250 3500 50  0000 C CNN
+	1    4250 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 3550 3250 3550
+Wire Wire Line
+	3550 3550 4000 3550
+Wire Wire Line
+	4000 3550 4000 3900
+Wire Wire Line
+	2850 3550 2850 3400
+Wire Wire Line
+	4000 3550 4000 3400
+Connection ~ 4000 3550
+Wire Wire Line
+	2850 3550 2850 3900
+Connection ~ 2850 3550
+Wire Wire Line
+	2600 3900 2850 3900
+Wire Wire Line
+	2850 3900 2850 4450
+Wire Wire Line
+	2850 4450 2950 4450
+Connection ~ 2850 3900
+Wire Wire Line
+	2700 4450 2750 4450
+Connection ~ 4000 3900
+Wire Wire Line
+	4250 3800 4250 3900
+Wire Wire Line
+	4250 3900 4000 3900
+Wire Wire Line
+	4000 3900 4000 4350
+Connection ~ 4750 4450
+Wire Wire Line
+	4750 4450 4850 4450
+Wire Wire Line
+	4400 4450 4750 4450
+Wire Wire Line
+	2900 5000 2900 4250
+Wire Wire Line
+	2900 4250 2950 4250
+Wire Wire Line
+	3950 5000 3950 4450
+Wire Wire Line
+	3850 4450 3950 4450
+Connection ~ 3950 4450
+Wire Wire Line
+	3950 4450 4100 4450
+Text Notes 2300 3350 0    60   ~ 12
+X2Y cap
+Text Notes 4200 3300 0    60   ~ 12
+X2Y cap
+$Comp
+L device:C C?
+U 1 1 5E9878B4
+P 7150 3550
+AR Path="/5DE7D121/5E9878B4" Ref="C?"  Part="1" 
+AR Path="/5E9878B4" Ref="C10"  Part="1" 
+AR Path="/5E95ABF5/5E9878B4" Ref="C12"  Part="1" 
+AR Path="/5EAA982A/5E9878B4" Ref="C49"  Part="1" 
+AR Path="/5EABD56D/5E9878B4" Ref="C73"  Part="1" 
+F 0 "C12" H 7175 3650 50  0000 L CNN
+F 1 "0.1uF" V 7100 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7188 3400 50  0001 C CNN
+F 3 "" H 7150 3550 50  0000 C CNN
+	1    7150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9878BA
+P 7150 5000
+AR Path="/5DE7D121/5E9878BA" Ref="R?"  Part="1" 
+AR Path="/5E9878BA" Ref="R10"  Part="1" 
+AR Path="/5E95ABF5/5E9878BA" Ref="R14"  Part="1" 
+AR Path="/5EAA982A/5E9878BA" Ref="R56"  Part="1" 
+AR Path="/5EABD56D/5E9878BA" Ref="R90"  Part="1" 
+F 0 "R14" V 7230 5000 50  0000 C CNN
+F 1 "249" V 7150 5000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 7080 5000 50  0001 C CNN
+F 3 "" H 7150 5000 50  0000 C CNN
+	1    7150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9878C0
+P 8000 4450
+AR Path="/5DE7D121/5E9878C0" Ref="R?"  Part="1" 
+AR Path="/5E9878C0" Ref="R11"  Part="1" 
+AR Path="/5E95ABF5/5E9878C0" Ref="R15"  Part="1" 
+AR Path="/5EAA982A/5E9878C0" Ref="R57"  Part="1" 
+AR Path="/5EABD56D/5E9878C0" Ref="R91"  Part="1" 
+F 0 "R15" V 8080 4450 50  0000 C CNN
+F 1 "49.9" V 8000 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 7930 4450 50  0001 C CNN
+F 3 "" H 8000 4450 50  0000 C CNN
+	1    8000 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9878C6
+P 6300 4450
+AR Path="/5DE7D121/5E9878C6" Ref="R?"  Part="1" 
+AR Path="/5E9878C6" Ref="R8"  Part="1" 
+AR Path="/5E95ABF5/5E9878C6" Ref="R12"  Part="1" 
+AR Path="/5EAA982A/5E9878C6" Ref="R54"  Part="1" 
+AR Path="/5EABD56D/5E9878C6" Ref="R88"  Part="1" 
+F 0 "R12" V 6380 4450 50  0000 C CNN
+F 1 "49.9" V 6300 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 6230 4450 50  0001 C CNN
+F 3 "" H 6300 4450 50  0000 C CNN
+	1    6300 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9878CC
+P 8000 3650
+AR Path="/5DE7D121/5E9878CC" Ref="C?"  Part="1" 
+AR Path="/5E9878CC" Ref="C11"  Part="1" 
+AR Path="/5E95ABF5/5E9878CC" Ref="C13"  Part="1" 
+AR Path="/5EAA982A/5E9878CC" Ref="C50"  Part="1" 
+AR Path="/5EABD56D/5E9878CC" Ref="C74"  Part="1" 
+F 0 "C13" H 8025 3750 50  0000 L CNN
+F 1 "10nF" H 8025 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8038 3500 50  0001 C CNN
+F 3 "" H 8000 3650 50  0000 C CNN
+	1    8000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9878D2
+P 6350 3650
+AR Path="/5DE7D121/5E9878D2" Ref="C?"  Part="1" 
+AR Path="/5E9878D2" Ref="C7"  Part="1" 
+AR Path="/5E95ABF5/5E9878D2" Ref="C9"  Part="1" 
+AR Path="/5EAA982A/5E9878D2" Ref="C46"  Part="1" 
+AR Path="/5EABD56D/5E9878D2" Ref="C70"  Part="1" 
+F 0 "C9" H 6375 3750 50  0000 L CNN
+F 1 "10nF" H 6400 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6388 3500 50  0001 C CNN
+F 3 "" H 6350 3650 50  0000 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3800 6350 3900
+Text Notes 7800 4350 0    60   ~ 12
+R-isolation
+Text Notes 6900 4900 0    60   ~ 12
+R-feedback
+Wire Wire Line
+	8500 4550 8500 4450
+$Comp
+L device:C C?
+U 1 1 5E9878DC
+P 8750 4450
+AR Path="/5DE7D121/5E9878DC" Ref="C?"  Part="1" 
+AR Path="/5E9878DC" Ref="C12"  Part="1" 
+AR Path="/5E95ABF5/5E9878DC" Ref="C14"  Part="1" 
+AR Path="/5EAA982A/5E9878DC" Ref="C51"  Part="1" 
+AR Path="/5EABD56D/5E9878DC" Ref="C75"  Part="1" 
+F 0 "C14" H 8775 4550 50  0000 L CNN
+F 1 "100uF" H 8775 4350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8788 4300 50  0001 C CNN
+F 3 "" H 8750 4450 50  0000 C CNN
+	1    8750 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9878E2
+P 8500 4700
+AR Path="/5DE7D121/5E9878E2" Ref="R?"  Part="1" 
+AR Path="/5E9878E2" Ref="R12"  Part="1" 
+AR Path="/5E95ABF5/5E9878E2" Ref="R16"  Part="1" 
+AR Path="/5EAA982A/5E9878E2" Ref="R58"  Part="1" 
+AR Path="/5EABD56D/5E9878E2" Ref="R92"  Part="1" 
+F 0 "R16" V 8580 4700 50  0000 C CNN
+F 1 "100" V 8500 4700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8430 4700 50  0001 C CNN
+F 3 "" H 8500 4700 50  0000 C CNN
+	1    8500 4700
+	-1   0    0    1   
+$EndComp
+Text Notes 8600 4700 0    60   ~ 12
+CBLR
+$Comp
+L device:R R?
+U 1 1 5E9878E9
+P 6650 5250
+AR Path="/5DE7D121/5E9878E9" Ref="R?"  Part="1" 
+AR Path="/5E9878E9" Ref="R9"  Part="1" 
+AR Path="/5E95ABF5/5E9878E9" Ref="R13"  Part="1" 
+AR Path="/5EAA982A/5E9878E9" Ref="R55"  Part="1" 
+AR Path="/5EABD56D/5E9878E9" Ref="R89"  Part="1" 
+F 0 "R13" V 6730 5250 50  0000 C CNN
+F 1 "150" V 6650 5250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 6580 5250 50  0001 C CNN
+F 3 "" H 6650 5250 50  0000 C CNN
+	1    6650 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 5100 6650 5000
+Wire Wire Line
+	7600 4350 7750 4350
+$Comp
+L device:C C?
+U 1 1 5E9878F1
+P 6650 5800
+AR Path="/5DE7D121/5E9878F1" Ref="C?"  Part="1" 
+AR Path="/5E9878F1" Ref="C8"  Part="1" 
+AR Path="/5E95ABF5/5E9878F1" Ref="C10"  Part="1" 
+AR Path="/5EAA982A/5E9878F1" Ref="C47"  Part="1" 
+AR Path="/5EABD56D/5E9878F1" Ref="C71"  Part="1" 
+F 0 "C10" H 6675 5900 50  0000 L CNN
+F 1 "10nF" H 6675 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 5650 50  0001 C CNN
+F 3 "" H 6650 5800 50  0000 C CNN
+	1    6650 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9878F7
+P 6900 5800
+AR Path="/5DE7D121/5E9878F7" Ref="C?"  Part="1" 
+AR Path="/5E9878F7" Ref="C9"  Part="1" 
+AR Path="/5E95ABF5/5E9878F7" Ref="C11"  Part="1" 
+AR Path="/5EAA982A/5E9878F7" Ref="C48"  Part="1" 
+AR Path="/5EABD56D/5E9878F7" Ref="C72"  Part="1" 
+F 0 "C11" H 6925 5900 50  0000 L CNN
+F 1 "100nF" H 6925 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6938 5650 50  0001 C CNN
+F 3 "" H 6900 5800 50  0000 C CNN
+	1    6900 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 5400 6650 5550
+Wire Wire Line
+	6650 5550 6900 5550
+Wire Wire Line
+	6900 5550 6900 5650
+Connection ~ 6650 5550
+Wire Wire Line
+	6650 5550 6650 5650
+Wire Wire Line
+	6900 6000 6900 5950
+Wire Wire Line
+	6650 6000 6650 5950
+Text GLabel 6600 2800 1    60   Input ~ 0
+5V
+Text GLabel 7750 2800 1    60   Input ~ 0
+-5V
+Text Notes 6800 3800 0    30   Italic 0
+C accross power supply reduces \n2nd order harmonic distortion.
+Text Notes 6700 4950 0    30   Italic 0
+Rf optimized to be 237 for LMH6702
+Text Notes 7600 4400 0    30   Italic 0
+R-iso important for any capacitive load
+Text Notes 8950 4900 2    30   Italic 0
+This might be a small capacitor.
+$Comp
+L power:Earth #PWR0112
+U 1 1 5E98790A
+P 8500 4850
+AR Path="/5E98790A" Ref="#PWR0112"  Part="1" 
+AR Path="/5E95ABF5/5E98790A" Ref="#PWR0115"  Part="1" 
+AR Path="/5EAA982A/5E98790A" Ref="#PWR0142"  Part="1" 
+AR Path="/5EABD56D/5E98790A" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0115" H 8500 4600 50  0001 C CNN
+F 1 "Earth" H 8500 4700 50  0001 C CNN
+F 2 "" H 8500 4850 50  0000 C CNN
+F 3 "" H 8500 4850 50  0000 C CNN
+	1    8500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0113
+U 1 1 5E987910
+P 6350 3500
+AR Path="/5E987910" Ref="#PWR0113"  Part="1" 
+AR Path="/5E95ABF5/5E987910" Ref="#PWR0116"  Part="1" 
+AR Path="/5EAA982A/5E987910" Ref="#PWR0143"  Part="1" 
+AR Path="/5EABD56D/5E987910" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0116" H 6350 3250 50  0001 C CNN
+F 1 "Earth" H 6350 3350 50  0001 C CNN
+F 2 "" H 6350 3500 50  0000 C CNN
+F 3 "" H 6350 3500 50  0000 C CNN
+	1    6350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0114
+U 1 1 5E987916
+P 8000 3500
+AR Path="/5E987916" Ref="#PWR0114"  Part="1" 
+AR Path="/5E95ABF5/5E987916" Ref="#PWR0117"  Part="1" 
+AR Path="/5EAA982A/5E987916" Ref="#PWR0144"  Part="1" 
+AR Path="/5EABD56D/5E987916" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0117" H 8000 3250 50  0001 C CNN
+F 1 "Earth" H 8000 3350 50  0001 C CNN
+F 2 "" H 8000 3500 50  0000 C CNN
+F 3 "" H 8000 3500 50  0000 C CNN
+	1    8000 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3550 7000 3550
+Wire Wire Line
+	7300 3550 7750 3550
+Wire Wire Line
+	7750 3550 7750 3900
+Wire Wire Line
+	6600 3550 6600 3400
+Wire Wire Line
+	7750 3550 7750 3400
+Connection ~ 7750 3550
+$Comp
+L MyLibrary:LMH6702MF U2
+U 1 1 5E987922
+P 7150 4350
+AR Path="/5E987922" Ref="U2"  Part="1" 
+AR Path="/5E95ABF5/5E987922" Ref="U5"  Part="1" 
+AR Path="/5EAA982A/5E987922" Ref="U8"  Part="1" 
+AR Path="/5EABD56D/5E987922" Ref="U13"  Part="1" 
+F 0 "U5" H 7150 3863 60  0000 C CNN
+F 1 "LMH6702MF" H 7150 3969 60  0000 C CNN
+F 2 "MyFootprints:LMH6702" H 7150 4350 60  0001 C CNN
+F 3 "" H 7150 4350 60  0000 C CNN
+	1    7150 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3550 6600 3900
+Connection ~ 6600 3550
+Wire Wire Line
+	6350 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 4450
+Wire Wire Line
+	6600 4450 6700 4450
+Connection ~ 6600 3900
+Wire Wire Line
+	6450 4450 6500 4450
+Wire Wire Line
+	6500 4450 6500 4000
+Wire Wire Line
+	6500 4000 7600 4000
+Wire Wire Line
+	7600 4000 7600 4250
+Connection ~ 7750 3900
+Wire Wire Line
+	8000 3800 8000 3900
+Wire Wire Line
+	8000 3900 7750 3900
+Wire Wire Line
+	7750 3900 7750 4350
+Connection ~ 8500 4450
+Wire Wire Line
+	8500 4450 8600 4450
+Wire Wire Line
+	8150 4450 8500 4450
+Wire Wire Line
+	6650 5000 6650 4250
+Wire Wire Line
+	6650 4250 6700 4250
+Connection ~ 6650 5000
+Wire Wire Line
+	7700 5000 7700 4450
+Wire Wire Line
+	7600 4450 7700 4450
+Connection ~ 7700 4450
+Wire Wire Line
+	7700 4450 7850 4450
+Text Notes 6050 3350 0    60   ~ 12
+X2Y cap
+Text Notes 7950 3300 0    60   ~ 12
+X2Y cap
+Wire Wire Line
+	6900 6000 6650 6000
+$Comp
+L power:Earth #PWR0115
+U 1 1 5E987943
+P 6650 6000
+AR Path="/5E987943" Ref="#PWR0115"  Part="1" 
+AR Path="/5E95ABF5/5E987943" Ref="#PWR0118"  Part="1" 
+AR Path="/5EAA982A/5E987943" Ref="#PWR0145"  Part="1" 
+AR Path="/5EABD56D/5E987943" Ref="#PWR0175"  Part="1" 
+F 0 "#PWR0118" H 6650 5750 50  0001 C CNN
+F 1 "Earth" H 6650 5850 50  0001 C CNN
+F 2 "" H 6650 6000 50  0000 C CNN
+F 3 "" H 6650 6000 50  0000 C CNN
+	1    6650 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 6000
+Text Notes 2600 6100 1    60   ~ 12
+Protection
+Wire Wire Line
+	12150 3150 11700 3150
+$Comp
+L power:Earth #PWR0116
+U 1 1 5E98794D
+P 11500 3100
+AR Path="/5E98794D" Ref="#PWR0116"  Part="1" 
+AR Path="/5E95ABF5/5E98794D" Ref="#PWR0119"  Part="1" 
+AR Path="/5EAA982A/5E98794D" Ref="#PWR0146"  Part="1" 
+AR Path="/5EABD56D/5E98794D" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR0119" H 11500 2850 50  0001 C CNN
+F 1 "Earth" H 11500 2950 50  0001 C CNN
+F 2 "" H 11500 3100 50  0000 C CNN
+F 3 "" H 11500 3100 50  0000 C CNN
+	1    11500 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0117
+U 1 1 5E987953
+P 13150 3100
+AR Path="/5E987953" Ref="#PWR0117"  Part="1" 
+AR Path="/5E95ABF5/5E987953" Ref="#PWR0120"  Part="1" 
+AR Path="/5EAA982A/5E987953" Ref="#PWR0147"  Part="1" 
+AR Path="/5EABD56D/5E987953" Ref="#PWR0177"  Part="1" 
+F 0 "#PWR0120" H 13150 2850 50  0001 C CNN
+F 1 "Earth" H 13150 2950 50  0001 C CNN
+F 2 "" H 13150 3100 50  0000 C CNN
+F 3 "" H 13150 3100 50  0000 C CNN
+	1    13150 3100
+	-1   0    0    1   
+$EndComp
+Text Notes 11950 3350 0    30   Italic 0
+Use thick traces on power
+Wire Wire Line
+	11250 3450 11250 3500
+Wire Wire Line
+	11250 3500 11500 3500
+Connection ~ 11500 3500
+$Comp
+L power:Earth #PWR0118
+U 1 1 5E98795D
+P 11250 3100
+AR Path="/5E98795D" Ref="#PWR0118"  Part="1" 
+AR Path="/5E95ABF5/5E98795D" Ref="#PWR0121"  Part="1" 
+AR Path="/5EAA982A/5E98795D" Ref="#PWR0148"  Part="1" 
+AR Path="/5EABD56D/5E98795D" Ref="#PWR0178"  Part="1" 
+F 0 "#PWR0121" H 11250 2850 50  0001 C CNN
+F 1 "Earth" H 11250 2950 50  0001 C CNN
+F 2 "" H 11250 3100 50  0000 C CNN
+F 3 "" H 11250 3100 50  0000 C CNN
+	1    11250 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11250 3150 11250 3100
+Wire Wire Line
+	13150 3500 13400 3500
+Wire Wire Line
+	13400 3500 13400 3450
+Connection ~ 13150 3500
+$Comp
+L power:Earth #PWR0119
+U 1 1 5E987967
+P 13400 3100
+AR Path="/5E987967" Ref="#PWR0119"  Part="1" 
+AR Path="/5E95ABF5/5E987967" Ref="#PWR0122"  Part="1" 
+AR Path="/5EAA982A/5E987967" Ref="#PWR0149"  Part="1" 
+AR Path="/5EABD56D/5E987967" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR0122" H 13400 2850 50  0001 C CNN
+F 1 "Earth" H 13400 2950 50  0001 C CNN
+F 2 "" H 13400 3100 50  0000 C CNN
+F 3 "" H 13400 3100 50  0000 C CNN
+	1    13400 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13400 3150 13400 3100
+Text Notes 11950 3450 0    30   Italic 0
+Use star grounding
+Text Notes 11950 3500 0    30   Italic 0
+Give decoupling capacitors their own GND plane
+Text GLabel 11700 2100 1    60   Input ~ 0
+-5V
+Text GLabel 12900 2100 1    60   Input ~ 0
+5V
+Text Notes 11900 2750 0    30   Italic 0
+Place this very close to supply pins
+Text Notes 6950 3350 0    30   Italic 0
+Place this very close to supply pins
+$Comp
+L device:C C?
+U 1 1 5E98799C
+P 10500 4450
+AR Path="/5DE7D121/5E98799C" Ref="C?"  Part="1" 
+AR Path="/5E98799C" Ref="C13"  Part="1" 
+AR Path="/5E95ABF5/5E98799C" Ref="C16"  Part="1" 
+AR Path="/5EAA982A/5E98799C" Ref="C53"  Part="1" 
+AR Path="/5EABD56D/5E98799C" Ref="C77"  Part="1" 
+F 0 "C16" H 10525 4550 50  0000 L CNN
+F 1 "100uF" V 10400 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10538 4300 50  0001 C CNN
+F 3 "" H 10500 4450 50  0000 C CNN
+	1    10500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9879A2
+P 10500 4800
+AR Path="/5DE7D121/5E9879A2" Ref="R?"  Part="1" 
+AR Path="/5E9879A2" Ref="R17"  Part="1" 
+AR Path="/5E95ABF5/5E9879A2" Ref="R21"  Part="1" 
+AR Path="/5EAA982A/5E9879A2" Ref="R63"  Part="1" 
+AR Path="/5EABD56D/5E9879A2" Ref="R97"  Part="1" 
+F 0 "R21" V 10580 4800 50  0000 C CNN
+F 1 "49.9" V 10400 4800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10430 4800 50  0001 C CNN
+F 3 "" H 10500 4800 50  0000 C CNN
+	1    10500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0122
+U 1 1 5E9879A8
+P 10500 5000
+AR Path="/5E9879A8" Ref="#PWR0122"  Part="1" 
+AR Path="/5E95ABF5/5E9879A8" Ref="#PWR0125"  Part="1" 
+AR Path="/5EAA982A/5E9879A8" Ref="#PWR0152"  Part="1" 
+AR Path="/5EABD56D/5E9879A8" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0125" H 10500 4750 50  0001 C CNN
+F 1 "Earth" H 10500 4850 50  0001 C CNN
+F 2 "" H 10500 5000 50  0000 C CNN
+F 3 "" H 10500 5000 50  0000 C CNN
+	1    10500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5000 10500 4950
+Wire Wire Line
+	10500 4600 10500 4650
+$Comp
+L device:R R?
+U 1 1 5E9879B5
+P 13250 4550
+AR Path="/5DE7D121/5E9879B5" Ref="R?"  Part="1" 
+AR Path="/5E9879B5" Ref="R32"  Part="1" 
+AR Path="/5E95ABF5/5E9879B5" Ref="R36"  Part="1" 
+AR Path="/5EAA982A/5E9879B5" Ref="R78"  Part="1" 
+AR Path="/5EABD56D/5E9879B5" Ref="R112"  Part="1" 
+F 0 "R36" V 13330 4550 50  0000 C CNN
+F 1 "169 0.1%" V 13400 4600 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 13180 4550 50  0001 C CNN
+F 3 "" H 13250 4550 50  0000 C CNN
+	1    13250 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E9879BB
+P 13250 4900
+AR Path="/5DE7D121/5E9879BB" Ref="C?"  Part="1" 
+AR Path="/5E9879BB" Ref="C20"  Part="1" 
+AR Path="/5E95ABF5/5E9879BB" Ref="C24"  Part="1" 
+AR Path="/5EAA982A/5E9879BB" Ref="C61"  Part="1" 
+AR Path="/5EABD56D/5E9879BB" Ref="C85"  Part="1" 
+F 0 "C24" H 13275 5000 50  0000 L CNN
+F 1 "0.1uF" H 13275 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 13288 4750 50  0001 C CNN
+F 3 "" H 13250 4900 50  0000 C CNN
+	1    13250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0123
+U 1 1 5E9879C1
+P 13250 5100
+AR Path="/5E9879C1" Ref="#PWR0123"  Part="1" 
+AR Path="/5E95ABF5/5E9879C1" Ref="#PWR0126"  Part="1" 
+AR Path="/5EAA982A/5E9879C1" Ref="#PWR0153"  Part="1" 
+AR Path="/5EABD56D/5E9879C1" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0126" H 13250 4850 50  0001 C CNN
+F 1 "Earth" H 13250 4950 50  0001 C CNN
+F 2 "" H 13250 5100 50  0000 C CNN
+F 3 "" H 13250 5100 50  0000 C CNN
+	1    13250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 5050 13250 5100
+Wire Wire Line
+	13250 4700 13250 4750
+Wire Wire Line
+	12900 6050 12850 6050
+$Comp
+L device:R R?
+U 1 1 5E9879CA
+P 13050 6050
+AR Path="/5DE7D121/5E9879CA" Ref="R?"  Part="1" 
+AR Path="/5E9879CA" Ref="R30"  Part="1" 
+AR Path="/5E95ABF5/5E9879CA" Ref="R34"  Part="1" 
+AR Path="/5EAA982A/5E9879CA" Ref="R76"  Part="1" 
+AR Path="/5EABD56D/5E9879CA" Ref="R110"  Part="1" 
+F 0 "R34" V 13130 6050 50  0000 C CNN
+F 1 "49.9" V 13050 6050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 12980 6050 50  0001 C CNN
+F 3 "" H 13050 6050 50  0000 C CNN
+	1    13050 6050
+	0    -1   -1   0   
+$EndComp
+Text Notes 11250 2900 1    30   Italic 0
+10uF can be further away\n
+Text Notes 11500 2950 1    30   Italic 0
+Place this very close to supply pins
+Text Notes 11450 4700 3    30   Italic 0
+Remove as much as possible output capacitance. 
+Wire Wire Line
+	10800 4300 10800 4200
+Wire Wire Line
+	10800 4200 10900 4200
+Wire Wire Line
+	13400 4350 13400 4400
+Wire Wire Line
+	13250 4400 13250 4350
+Wire Wire Line
+	13250 4350 13400 4350
+Text Notes 10300 4000 0    30   Italic 0
+RS = RT||RG
+Text Notes 10950 4500 0    30   Italic 0
+RT
+Text Notes 10800 4050 0    30   Italic 0
+RG\n
+Wire Wire Line
+	11800 4000 11700 4000
+Wire Wire Line
+	11700 4000 11700 3500
+Connection ~ 11700 3500
+$Comp
+L device:R R?
+U 1 1 5E9879FC
+P 10250 4200
+AR Path="/5DE7D121/5E9879FC" Ref="R?"  Part="1" 
+AR Path="/5E9879FC" Ref="R16"  Part="1" 
+AR Path="/5E95ABF5/5E9879FC" Ref="R20"  Part="1" 
+AR Path="/5EAA982A/5E9879FC" Ref="R62"  Part="1" 
+AR Path="/5EABD56D/5E9879FC" Ref="R96"  Part="1" 
+F 0 "R20" V 10330 4200 50  0000 C CNN
+F 1 "169 0.1%" V 10150 4200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10180 4200 50  0001 C CNN
+F 3 "" H 10250 4200 50  0000 C CNN
+	1    10250 4200
+	0    1    1    0   
+$EndComp
+Connection ~ 10800 4200
+$Comp
+L device:R R?
+U 1 1 5E987A03
+P 11500 4050
+AR Path="/5DE7D121/5E987A03" Ref="R?"  Part="1" 
+AR Path="/5E987A03" Ref="R20"  Part="1" 
+AR Path="/5E95ABF5/5E987A03" Ref="R24"  Part="1" 
+AR Path="/5EAA982A/5E987A03" Ref="R66"  Part="1" 
+AR Path="/5EABD56D/5E987A03" Ref="R100"  Part="1" 
+F 0 "R24" V 11580 4050 50  0000 C CNN
+F 1 "169 0.1%" V 11400 4150 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 11430 4050 50  0001 C CNN
+F 3 "" H 11500 4050 50  0000 C CNN
+	1    11500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 4200 11500 4200
+Connection ~ 11500 4200
+Wire Wire Line
+	11500 4200 11800 4200
+Wire Wire Line
+	12800 4100 14100 4100
+Wire Wire Line
+	12800 4000 12900 4000
+Wire Wire Line
+	12900 4000 12900 3500
+$Comp
+L device:R R?
+U 1 1 5E987A0F
+P 11950 4950
+AR Path="/5DE7D121/5E987A0F" Ref="R?"  Part="1" 
+AR Path="/5E987A0F" Ref="R25"  Part="1" 
+AR Path="/5E95ABF5/5E987A0F" Ref="R29"  Part="1" 
+AR Path="/5EAA982A/5E987A0F" Ref="R71"  Part="1" 
+AR Path="/5EABD56D/5E987A0F" Ref="R105"  Part="1" 
+F 0 "R29" V 12030 4950 50  0000 C CNN
+F 1 "125" V 11950 4950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 11880 4950 50  0001 C CNN
+F 3 "" H 11950 4950 50  0000 C CNN
+	1    11950 4950
+	0    -1   -1   0   
+$EndComp
+Text Notes 11850 4700 0    30   Italic 0
+isolation
+Text Notes 11850 5100 0    30   Italic 0
+Fake Load
+Wire Wire Line
+	12800 3900 12850 3900
+Wire Wire Line
+	12800 4200 13100 4200
+Wire Wire Line
+	11500 3900 11750 3900
+Wire Wire Line
+	11750 4500 11750 3900
+Connection ~ 11750 3900
+Wire Wire Line
+	11750 3900 11800 3900
+Wire Wire Line
+	12850 3900 12850 4550
+Connection ~ 12850 3900
+Wire Wire Line
+	12850 3900 13100 3900
+$Comp
+L device:R R?
+U 1 1 5E987A20
+P 12850 4700
+AR Path="/5DE7D121/5E987A20" Ref="R?"  Part="1" 
+AR Path="/5E987A20" Ref="R28"  Part="1" 
+AR Path="/5E95ABF5/5E987A20" Ref="R32"  Part="1" 
+AR Path="/5EAA982A/5E987A20" Ref="R74"  Part="1" 
+AR Path="/5EABD56D/5E987A20" Ref="R108"  Part="1" 
+F 0 "R32" V 12930 4700 50  0000 C CNN
+F 1 "125" V 12850 4700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 12780 4700 50  0001 C CNN
+F 3 "" H 12850 4700 50  0000 C CNN
+	1    12850 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13100 4200 13100 4350
+Wire Wire Line
+	13100 4350 13250 4350
+Connection ~ 13100 4200
+Connection ~ 13250 4350
+Wire Wire Line
+	10500 4300 10500 4200
+Wire Wire Line
+	10500 4200 10800 4200
+Wire Wire Line
+	10500 4200 10400 4200
+Connection ~ 10500 4200
+Wire Wire Line
+	10100 4200 9950 4200
+Wire Wire Line
+	9950 4200 9950 4450
+Text Notes 11350 4750 3    30   Italic 0
+Ideally, the output is very close to the ADC input.
+$Comp
+L device:C C?
+U 1 1 5E987A51
+P 12300 3150
+AR Path="/5DE7D121/5E987A51" Ref="C?"  Part="1" 
+AR Path="/5E987A51" Ref="C17"  Part="1" 
+AR Path="/5E95ABF5/5E987A51" Ref="C20"  Part="1" 
+AR Path="/5EAA982A/5E987A51" Ref="C57"  Part="1" 
+AR Path="/5EABD56D/5E987A51" Ref="C81"  Part="1" 
+F 0 "C20" H 12325 3250 50  0000 L CNN
+F 1 "0.01uF" H 12325 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 12338 3000 50  0001 C CNN
+F 3 "" H 12300 3150 50  0000 C CNN
+	1    12300 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 3150 11700 3500
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A58
+P 12900 2800
+AR Path="/5DE7D121/5E987A58" Ref="L?"  Part="1" 
+AR Path="/5E987A58" Ref="L6"  Part="1" 
+AR Path="/5E95ABF5/5E987A58" Ref="L6"  Part="1" 
+AR Path="/5EAA982A/5E987A58" Ref="L14"  Part="1" 
+AR Path="/5EABD56D/5E987A58" Ref="L20"  Part="1" 
+F 0 "L6" V 12850 2800 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 13000 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 12900 2800 50  0001 C CNN
+F 3 "" H 12900 2800 50  0000 C CNN
+	1    12900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A5E
+P 11700 2800
+AR Path="/5DE7D121/5E987A5E" Ref="L?"  Part="1" 
+AR Path="/5E987A5E" Ref="L5"  Part="1" 
+AR Path="/5E95ABF5/5E987A5E" Ref="L5"  Part="1" 
+AR Path="/5EAA982A/5E987A5E" Ref="L13"  Part="1" 
+AR Path="/5EABD56D/5E987A5E" Ref="L19"  Part="1" 
+F 0 "L5" V 11650 2800 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 11800 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 11700 2800 50  0001 C CNN
+F 3 "" H 11700 2800 50  0000 C CNN
+	1    11700 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11700 3150 11700 3100
+Connection ~ 11700 3150
+Wire Wire Line
+	12900 3500 12900 3150
+Connection ~ 12900 3500
+Wire Wire Line
+	12450 3150 12900 3150
+Connection ~ 12900 3150
+Wire Wire Line
+	12900 3150 12900 3100
+Text Notes 14150 4700 3    30   Italic 0
+Ideally, this would go to the ADC reference
+Text Notes 12500 5100 0    30   Italic 0
+Fake Load
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A73
+P 2850 3100
+AR Path="/5DE7D121/5E987A73" Ref="L?"  Part="1" 
+AR Path="/5E987A73" Ref="L1"  Part="1" 
+AR Path="/5E95ABF5/5E987A73" Ref="L1"  Part="1" 
+AR Path="/5EAA982A/5E987A73" Ref="L9"  Part="1" 
+AR Path="/5EABD56D/5E987A73" Ref="L15"  Part="1" 
+F 0 "L1" V 2800 3100 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 2950 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0000 C CNN
+	1    2850 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A79
+P 4000 3100
+AR Path="/5DE7D121/5E987A79" Ref="L?"  Part="1" 
+AR Path="/5E987A79" Ref="L2"  Part="1" 
+AR Path="/5E95ABF5/5E987A79" Ref="L2"  Part="1" 
+AR Path="/5EAA982A/5E987A79" Ref="L10"  Part="1" 
+AR Path="/5EABD56D/5E987A79" Ref="L16"  Part="1" 
+F 0 "L2" V 3950 3100 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 4100 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0000 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2750 4000 2800
+Wire Wire Line
+	2850 2800 2850 2750
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A83
+P 6600 3100
+AR Path="/5DE7D121/5E987A83" Ref="L?"  Part="1" 
+AR Path="/5E987A83" Ref="L3"  Part="1" 
+AR Path="/5E95ABF5/5E987A83" Ref="L3"  Part="1" 
+AR Path="/5EAA982A/5E987A83" Ref="L11"  Part="1" 
+AR Path="/5EABD56D/5E987A83" Ref="L17"  Part="1" 
+F 0 "L3" V 6550 3100 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 6700 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6600 3100 50  0001 C CNN
+F 3 "" H 6600 3100 50  0000 C CNN
+	1    6600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:INDUCTOR L?
+U 1 1 5E987A89
+P 7750 3100
+AR Path="/5DE7D121/5E987A89" Ref="L?"  Part="1" 
+AR Path="/5E987A89" Ref="L4"  Part="1" 
+AR Path="/5E95ABF5/5E987A89" Ref="L4"  Part="1" 
+AR Path="/5EAA982A/5E987A89" Ref="L12"  Part="1" 
+AR Path="/5EABD56D/5E987A89" Ref="L18"  Part="1" 
+F 0 "L4" V 7700 3100 50  0000 C CNN
+F 1 "BLM18BB221SN1" V 7850 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7750 3100 50  0001 C CNN
+F 3 "" H 7750 3100 50  0000 C CNN
+	1    7750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5000 3250 5000
+Wire Wire Line
+	3550 5000 3950 5000
+Wire Wire Line
+	6650 5000 7000 5000
+Wire Wire Line
+	7300 5000 7700 5000
+$Comp
+L device:R R?
+U 1 1 5E987A93
+P 6050 4650
+AR Path="/5DE7D121/5E987A93" Ref="R?"  Part="1" 
+AR Path="/5E987A93" Ref="R7"  Part="1" 
+AR Path="/5E95ABF5/5E987A93" Ref="R11"  Part="1" 
+AR Path="/5EAA982A/5E987A93" Ref="R53"  Part="1" 
+AR Path="/5EABD56D/5E987A93" Ref="R87"  Part="1" 
+F 0 "R11" V 6130 4650 50  0000 C CNN
+F 1 "49.9" V 6050 4650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5980 4650 50  0001 C CNN
+F 3 "" H 6050 4650 50  0000 C CNN
+	1    6050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0124
+U 1 1 5E987A99
+P 6050 4800
+AR Path="/5E987A99" Ref="#PWR0124"  Part="1" 
+AR Path="/5E95ABF5/5E987A99" Ref="#PWR0127"  Part="1" 
+AR Path="/5EAA982A/5E987A99" Ref="#PWR0154"  Part="1" 
+AR Path="/5EABD56D/5E987A99" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0127" H 6050 4550 50  0001 C CNN
+F 1 "Earth" H 6050 4650 50  0001 C CNN
+F 2 "" H 6050 4800 50  0000 C CNN
+F 3 "" H 6050 4800 50  0000 C CNN
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4500 6050 4450
+Connection ~ 6050 4450
+Wire Wire Line
+	6050 4450 6150 4450
+Wire Wire Line
+	10800 4600 10800 4750
+$Comp
+L device:C C?
+U 1 1 5E987AA3
+P 12850 5200
+AR Path="/5DE7D121/5E987AA3" Ref="C?"  Part="1" 
+AR Path="/5E987AA3" Ref="C18"  Part="1" 
+AR Path="/5E95ABF5/5E987AA3" Ref="C22"  Part="1" 
+AR Path="/5EAA982A/5E987AA3" Ref="C59"  Part="1" 
+AR Path="/5EABD56D/5E987AA3" Ref="C83"  Part="1" 
+F 0 "C22" H 12875 5300 50  0000 L CNN
+F 1 "0.1uF" H 12875 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 12888 5050 50  0001 C CNN
+F 3 "" H 12850 5200 50  0000 C CNN
+	1    12850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 4950 12850 4950
+Wire Wire Line
+	12850 4850 12850 4950
+Wire Wire Line
+	12850 5050 12850 4950
+Connection ~ 12850 4950
+Wire Wire Line
+	11750 4950 11800 4950
+Wire Wire Line
+	11750 4800 11750 4950
+$Comp
+L power:Earth #PWR0125
+U 1 1 5E987AAF
+P 12500 4950
+AR Path="/5E987AAF" Ref="#PWR0125"  Part="1" 
+AR Path="/5E95ABF5/5E987AAF" Ref="#PWR0128"  Part="1" 
+AR Path="/5EAA982A/5E987AAF" Ref="#PWR0155"  Part="1" 
+AR Path="/5EABD56D/5E987AAF" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0128" H 12500 4700 50  0001 C CNN
+F 1 "Earth" H 12500 4800 50  0001 C CNN
+F 2 "" H 12500 4950 50  0000 C CNN
+F 3 "" H 12500 4950 50  0000 C CNN
+	1    12500 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0126
+U 1 1 5E987AB5
+P 12100 4950
+AR Path="/5E987AB5" Ref="#PWR0126"  Part="1" 
+AR Path="/5E95ABF5/5E987AB5" Ref="#PWR0129"  Part="1" 
+AR Path="/5EAA982A/5E987AB5" Ref="#PWR0156"  Part="1" 
+AR Path="/5EABD56D/5E987AB5" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0129" H 12100 4700 50  0001 C CNN
+F 1 "Earth" H 12100 4800 50  0001 C CNN
+F 2 "" H 12100 4950 50  0000 C CNN
+F 3 "" H 12100 4950 50  0000 C CNN
+	1    12100 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5E987ABB
+P 11750 5200
+AR Path="/5DE7D121/5E987ABB" Ref="C?"  Part="1" 
+AR Path="/5E987ABB" Ref="C16"  Part="1" 
+AR Path="/5E95ABF5/5E987ABB" Ref="C19"  Part="1" 
+AR Path="/5EAA982A/5E987ABB" Ref="C56"  Part="1" 
+AR Path="/5EABD56D/5E987ABB" Ref="C80"  Part="1" 
+F 0 "C19" H 11775 5300 50  0000 L CNN
+F 1 "0.1uF" H 11775 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11788 5050 50  0001 C CNN
+F 3 "" H 11750 5200 50  0000 C CNN
+	1    11750 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 5050 11750 4950
+Connection ~ 11750 4950
+$Comp
+L device:CP1 C21
+U 1 1 5E987AC7
+P 13400 3300
+AR Path="/5E987AC7" Ref="C21"  Part="1" 
+AR Path="/5E95ABF5/5E987AC7" Ref="C25"  Part="1" 
+AR Path="/5EAA982A/5E987AC7" Ref="C62"  Part="1" 
+AR Path="/5EABD56D/5E987AC7" Ref="C86"  Part="1" 
+F 0 "C25" H 13250 3450 50  0000 L CNN
+F 1 "CP1" H 13250 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 13400 3300 50  0001 C CNN
+F 3 "" H 13400 3300 50  0000 C CNN
+	1    13400 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:CP1 C14
+U 1 1 5E987ACD
+P 11250 3300
+AR Path="/5E987ACD" Ref="C14"  Part="1" 
+AR Path="/5E95ABF5/5E987ACD" Ref="C17"  Part="1" 
+AR Path="/5EAA982A/5E987ACD" Ref="C54"  Part="1" 
+AR Path="/5EABD56D/5E987ACD" Ref="C78"  Part="1" 
+F 0 "C17" H 11100 3450 50  0000 L CNN
+F 1 "CP1" H 11100 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 11250 3300 50  0001 C CNN
+F 3 "" H 11250 3300 50  0000 C CNN
+	1    11250 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 11550 4950 3    30   Italic 0
+Minimize loop area from diff to ADC\n
+Text HLabel 1900 4450 0    50   Input ~ 0
+Sig_in
+Wire Wire Line
+	1900 4450 2100 4450
+Connection ~ 2100 4450
+Text HLabel 12850 6500 3    50   Input ~ 0
+Diff_out_P
+Text HLabel 11750 6500 3    50   Input ~ 0
+Diff_out_N
+Wire Wire Line
+	12850 6050 12850 6500
+Connection ~ 12850 6050
+Wire Wire Line
+	11750 6050 11750 6500
+Connection ~ 11750 6050
+$Comp
+L power:Earth #PWR0127
+U 1 1 5EA7EF0D
+P 1550 3700
+AR Path="/5EA7EF0D" Ref="#PWR0127"  Part="1" 
+AR Path="/5EAA982A/5EA7EF0D" Ref="#PWR0158"  Part="1" 
+AR Path="/5E95ABF5/5EA7EF0D" Ref="#PWR0157"  Part="1" 
+AR Path="/5EABD56D/5EA7EF0D" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0157" H 1550 3450 50  0001 C CNN
+F 1 "Earth" H 1550 3550 50  0001 C CNN
+F 2 "" H 1550 3700 50  0000 C CNN
+F 3 "" H 1550 3700 50  0000 C CNN
+	1    1550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_01X01 P1
+U 1 1 5EA7EF13
+P 1550 3500
+AR Path="/5EA7EF13" Ref="P1"  Part="1" 
+AR Path="/5EAA982A/5EA7EF13" Ref="P3"  Part="1" 
+AR Path="/5E95ABF5/5EA7EF13" Ref="P2"  Part="1" 
+AR Path="/5EABD56D/5EA7EF13" Ref="P4"  Part="1" 
+F 0 "P2" V 1513 3412 50  0000 R CNN
+F 1 "TP1" V 1422 3412 50  0000 R CNN
+F 2 "MyFootprints:RF SHIELD 1.094 X 2.23 SMD" H 1550 3500 50  0001 C CNN
+F 3 "" H 1550 3500 50  0000 C CNN
+	1    1550 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12850 5350 12850 6050
+Wire Wire Line
+	11750 5350 11750 6050
+$Comp
+L MyLibrary:LMH6702MF U1
+U 1 1 5E987887
+P 3400 4350
+AR Path="/5E987887" Ref="U1"  Part="1" 
+AR Path="/5E95ABF5/5E987887" Ref="U4"  Part="1" 
+AR Path="/5EAA982A/5E987887" Ref="U7"  Part="1" 
+AR Path="/5EABD56D/5E987887" Ref="U12"  Part="1" 
+F 0 "U4" H 3400 3863 60  0000 C CNN
+F 1 "LMH6702MF" H 3400 3969 60  0000 C CNN
+F 2 "MyFootprints:LMH6702" H 3400 4350 60  0001 C CNN
+F 3 "" H 3400 4350 60  0000 C CNN
+	1    3400 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 4450 2750 4250
+Wire Wire Line
+	2750 4250 2900 4250
+Connection ~ 2900 4250
+$Comp
+L device:R R?
+U 1 1 5EBEFDA2
+P 4650 3950
+AR Path="/5DE7D121/5EBEFDA2" Ref="R?"  Part="1" 
+AR Path="/5EBEFDA2" Ref="R3"  Part="1" 
+AR Path="/5E95ABF5/5EBEFDA2" Ref="R1"  Part="1" 
+AR Path="/5EAA982A/5EBEFDA2" Ref="R?"  Part="1" 
+AR Path="/5EABD56D/5EBEFDA2" Ref="R?"  Part="1" 
+F 0 "R1" V 4730 3950 50  0000 C CNN
+F 1 "49.9" V 4650 3950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 4580 3950 50  0001 C CNN
+F 3 "" H 4650 3950 50  0000 C CNN
+	1    4650 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5EBF0B65
+P 4600 3600
+AR Path="/5DE7D121/5EBF0B65" Ref="C?"  Part="1" 
+AR Path="/5EBF0B65" Ref="C2"  Part="1" 
+AR Path="/5E95ABF5/5EBF0B65" Ref="C4"  Part="1" 
+AR Path="/5EAA982A/5EBF0B65" Ref="C?"  Part="1" 
+AR Path="/5EABD56D/5EBF0B65" Ref="C?"  Part="1" 
+F 0 "C4" H 4625 3700 50  0000 L CNN
+F 1 "10nF" H 4625 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4638 3450 50  0001 C CNN
+F 3 "" H 4600 3600 50  0000 C CNN
+	1    4600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5EBF114C
+P 4850 3600
+AR Path="/5DE7D121/5EBF114C" Ref="C?"  Part="1" 
+AR Path="/5EBF114C" Ref="C3"  Part="1" 
+AR Path="/5E95ABF5/5EBF114C" Ref="C5"  Part="1" 
+AR Path="/5EAA982A/5EBF114C" Ref="C?"  Part="1" 
+AR Path="/5EABD56D/5EBF114C" Ref="C?"  Part="1" 
+F 0 "C5" H 4875 3700 50  0000 L CNN
+F 1 "0.1uF" H 4875 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4888 3450 50  0001 C CNN
+F 3 "" H 4850 3600 50  0000 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0108
+U 1 1 5EBF14A5
+P 4600 3450
+AR Path="/5EBF14A5" Ref="#PWR0108"  Part="1" 
+AR Path="/5E95ABF5/5EBF14A5" Ref="#PWR0101"  Part="1" 
+AR Path="/5EAA982A/5EBF14A5" Ref="#PWR?"  Part="1" 
+AR Path="/5EABD56D/5EBF14A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 4600 3200 50  0001 C CNN
+F 1 "Earth" H 4600 3300 50  0001 C CNN
+F 2 "" H 4600 3450 50  0000 C CNN
+F 3 "" H 4600 3450 50  0000 C CNN
+	1    4600 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0129
+U 1 1 5EBF1DB2
+P 4850 3450
+AR Path="/5EBF1DB2" Ref="#PWR0129"  Part="1" 
+AR Path="/5E95ABF5/5EBF1DB2" Ref="#PWR0111"  Part="1" 
+AR Path="/5EAA982A/5EBF1DB2" Ref="#PWR?"  Part="1" 
+AR Path="/5EABD56D/5EBF1DB2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0111" H 4850 3200 50  0001 C CNN
+F 1 "Earth" H 4850 3300 50  0001 C CNN
+F 2 "" H 4850 3450 50  0000 C CNN
+F 3 "" H 4850 3450 50  0000 C CNN
+	1    4850 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3750 4850 3800
+Wire Wire Line
+	4850 3800 4650 3800
+Wire Wire Line
+	4650 3800 4600 3800
+Wire Wire Line
+	4600 3800 4600 3750
+Connection ~ 4650 3800
+Wire Wire Line
+	4650 4100 4650 4250
+Wire Wire Line
+	4650 4250 3850 4250
+Text Notes 3750 5100 0    30   Italic 0
+Rf and RG as close to IN as possible
+Wire Wire Line
+	5150 4450 5450 4450
+Wire Wire Line
+	5800 3450 5800 4450
+Text Notes 5600 2900 1    60   ~ 12
+RBLR
+Wire Wire Line
+	5400 3850 5400 3800
+$Comp
+L power:Earth #PWR0107
+U 1 1 5E9877F8
+P 5400 3850
+AR Path="/5E9877F8" Ref="#PWR0107"  Part="1" 
+AR Path="/5E95ABF5/5E9877F8" Ref="#PWR0109"  Part="1" 
+AR Path="/5EAA982A/5E9877F8" Ref="#PWR0136"  Part="1" 
+AR Path="/5EABD56D/5E9877F8" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0109" H 5400 3600 50  0001 C CNN
+F 1 "Earth" H 5400 3700 50  0001 C CNN
+F 2 "" H 5400 3850 50  0000 C CNN
+F 3 "" H 5400 3850 50  0000 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 3450
+Wire Wire Line
+	5400 3450 5400 3400
+Wire Wire Line
+	5400 3450 5400 3500
+Wire Wire Line
+	5400 3450 5450 3450
+$Comp
+L device:R R?
+U 1 1 5E9877EE
+P 5400 3650
+AR Path="/5DE7D121/5E9877EE" Ref="R?"  Part="1" 
+AR Path="/5E9877EE" Ref="R14"  Part="1" 
+AR Path="/5E95ABF5/5E9877EE" Ref="R18"  Part="1" 
+AR Path="/5EAA982A/5E9877EE" Ref="R60"  Part="1" 
+AR Path="/5EABD56D/5E9877EE" Ref="R94"  Part="1" 
+F 0 "R18" V 5480 3650 50  0000 C CNN
+F 1 "10k" V 5400 3650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5330 3650 50  0001 C CNN
+F 3 "" H 5400 3650 50  0000 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E9877E8
+P 5600 3450
+AR Path="/5DE7D121/5E9877E8" Ref="R?"  Part="1" 
+AR Path="/5E9877E8" Ref="R15"  Part="1" 
+AR Path="/5E95ABF5/5E9877E8" Ref="R19"  Part="1" 
+AR Path="/5EAA982A/5E9877E8" Ref="R61"  Part="1" 
+AR Path="/5EABD56D/5E9877E8" Ref="R95"  Part="1" 
+F 0 "R19" V 5680 3450 50  0000 C CNN
+F 1 "0" V 5600 3450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5530 3450 50  0001 C CNN
+F 3 "" H 5600 3450 50  0000 C CNN
+	1    5600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5E987799
+P 5400 3250
+AR Path="/5DE7D121/5E987799" Ref="R?"  Part="1" 
+AR Path="/5E987799" Ref="R13"  Part="1" 
+AR Path="/5E95ABF5/5E987799" Ref="R17"  Part="1" 
+AR Path="/5EAA982A/5E987799" Ref="R59"  Part="1" 
+AR Path="/5EABD56D/5E987799" Ref="R93"  Part="1" 
+F 0 "R17" V 5480 3250 50  0000 C CNN
+F 1 "10k" V 5400 3250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5330 3250 50  0001 C CNN
+F 3 "" H 5400 3250 50  0000 C CNN
+	1    5400 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0128
+U 1 1 5EDB9552
+P 5500 750
+AR Path="/5EDB9552" Ref="#PWR0128"  Part="1" 
+AR Path="/5EAA982A/5EDB9552" Ref="#PWR0137"  Part="1" 
+AR Path="/5E95ABF5/5EDB9552" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 5500 500 50  0001 C CNN
+F 1 "Earth" H 5500 600 50  0001 C CNN
+F 2 "" H 5500 750 50  0000 C CNN
+F 3 "" H 5500 750 50  0000 C CNN
+	1    5500 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 800  5650 800 
+Connection ~ 5500 800 
+Wire Wire Line
+	5500 750  5500 800 
+Connection ~ 5650 800 
+Wire Wire Line
+	5650 800  5800 800 
+Connection ~ 5350 800 
+Wire Wire Line
+	5350 800  5500 800 
+Wire Wire Line
+	5200 800  5350 800 
+$Comp
+L Mylibrary:SMA U3
+U 1 1 5EDB9544
+P 5500 1250
+AR Path="/5EDB9544" Ref="U3"  Part="1" 
+AR Path="/5EAA982A/5EDB9544" Ref="U12"  Part="1" 
+AR Path="/5E95ABF5/5EDB9544" Ref="U11"  Part="1" 
+F 0 "U11" H 5479 1665 50  0000 C CNN
+F 1 "SMA" H 5479 1574 50  0000 C CNN
+F 2 "MyFootprints:SMA_90" H 5500 1250 50  0001 C CNN
+F 3 "" H 5500 1250 50  0001 C CNN
+	1    5500 1250
+	-1   0    0    1   
+$EndComp
+Connection ~ 5800 4450
+Wire Wire Line
+	5800 4450 6050 4450
+Wire Wire Line
+	8900 4450 9950 4450
+Wire Notes Line
+	2000 1600 5150 1600
+Wire Notes Line
+	5150 1600 5150 6400
+Wire Notes Line
+	2000 6400 5150 6400
+Wire Wire Line
+	5800 3450 5750 3450
+$Comp
+L device:R R?
+U 1 1 5EC6A933
+P 5700 5300
+AR Path="/5DE7D121/5EC6A933" Ref="R?"  Part="1" 
+AR Path="/5EC6A933" Ref="R36"  Part="1" 
+AR Path="/5E95ABF5/5EC6A933" Ref="R3"  Part="1" 
+AR Path="/5EAA982A/5EC6A933" Ref="R?"  Part="1" 
+AR Path="/5EABD56D/5EC6A933" Ref="R?"  Part="1" 
+F 0 "R3" V 5780 5300 50  0000 C CNN
+F 1 "10k" V 5700 5300 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5630 5300 50  0001 C CNN
+F 3 "" H 5700 5300 50  0000 C CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0130
+U 1 1 5EC6ACD5
+P 5700 5450
+AR Path="/5EC6ACD5" Ref="#PWR0130"  Part="1" 
+AR Path="/5E95ABF5/5EC6ACD5" Ref="#PWR0130"  Part="1" 
+AR Path="/5EAA982A/5EC6ACD5" Ref="#PWR?"  Part="1" 
+AR Path="/5EABD56D/5EC6ACD5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 5700 5200 50  0001 C CNN
+F 1 "Earth" H 5700 5300 50  0001 C CNN
+F 2 "" H 5700 5450 50  0000 C CNN
+F 3 "" H 5700 5450 50  0000 C CNN
+	1    5700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5EC6B2BE
+P 5450 4900
+AR Path="/5DE7D121/5EC6B2BE" Ref="R?"  Part="1" 
+AR Path="/5EC6B2BE" Ref="R35"  Part="1" 
+AR Path="/5E95ABF5/5EC6B2BE" Ref="R2"  Part="1" 
+AR Path="/5EAA982A/5EC6B2BE" Ref="R?"  Part="1" 
+AR Path="/5EABD56D/5EC6B2BE" Ref="R?"  Part="1" 
+F 0 "R2" V 5530 4900 50  0000 C CNN
+F 1 "10k" V 5450 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 5380 4900 50  0001 C CNN
+F 3 "" H 5450 4900 50  0000 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4750 5450 4450
+Connection ~ 5450 4450
+Wire Wire Line
+	5450 4450 5800 4450
+Wire Wire Line
+	5450 5050 5450 5100
+Wire Wire Line
+	5450 5100 5700 5100
+Wire Wire Line
+	5700 5150 5700 5100
+Wire Wire Line
+	5500 1250 5500 3100
+Wire Wire Line
+	5500 3100 5400 3100
+Text Notes 2100 1700 0    30   Italic 0
+Maximum voltage is 6V.
+Text HLabel 5450 5550 3    50   Input ~ 0
+FADC_out
+Wire Wire Line
+	5450 5550 5450 5100
+Connection ~ 5450 5100
+Wire Wire Line
+	11700 2100 11700 2500
+Wire Wire Line
+	12900 2100 12900 2500
+$EndSCHEMATC
