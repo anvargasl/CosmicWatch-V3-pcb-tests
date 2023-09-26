@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DC-DC-booster.kicad_pro",
+    "filename": "Peak-Detector.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -322,11 +322,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "ee3fefaa-818f-4207-9a53-d175ff74ab66",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
