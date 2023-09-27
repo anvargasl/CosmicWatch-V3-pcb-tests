@@ -1837,6 +1837,9 @@
   (junction (at 27.94 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 19b8cc8e-4be3-4311-ae2c-c45bd54cff8b)
   )
+  (junction (at 68.834 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 1b19175f-f3ec-4a3e-bafb-5837492929b3)
+  )
   (junction (at 63.5 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 1cb3de26-a9fb-4876-8c4e-06324548dfd4)
   )
@@ -2556,6 +2559,10 @@
     (stroke (width 0) (type default))
     (uuid 997a9de6-2a1a-4e60-a065-722fa5ce9391)
   )
+  (wire (pts (xy 68.834 55.88) (xy 81.28 55.88))
+    (stroke (width 0) (type default))
+    (uuid 99977807-b3e9-4ca6-9061-e6945e9a212a)
+  )
   (wire (pts (xy 53.34 205.74) (xy 58.42 205.74))
     (stroke (width 0) (type default))
     (uuid 99a09f71-0f88-482a-966c-5a3832878bb4)
@@ -2749,6 +2756,10 @@
     (stroke (width 0) (type default))
     (uuid d3864a1f-40d1-453c-ba32-ec7c5150e9dd)
   )
+  (wire (pts (xy 63.5 55.88) (xy 68.834 55.88))
+    (stroke (width 0) (type default))
+    (uuid d565916d-2673-4713-8e9f-651ca9165ddf)
+  )
   (wire (pts (xy 367.03 25.4) (xy 368.554 25.4))
     (stroke (width 0) (type default))
     (uuid d5765380-b3b4-41c2-be8f-322446877e23)
@@ -2816,10 +2827,6 @@
     (uuid e96edb5e-8578-4799-857d-f78e698352ed)
   )
 
-  (wire (pts (xy 63.5 55.88) (xy 81.28 55.88))
-    (stroke (width 0) (type default))
-    (uuid ea23a4c6-1bfd-447a-ae97-76603e87ebbf)
-  )
   (wire (pts (xy 131.445 162.56) (xy 127.635 162.56))
     (stroke (width 0) (type default))
     (uuid eb0876bf-bbb2-4809-bbdd-e42311ee5a20)
@@ -37329,8 +37336,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6549ae1c-1cc1-4f5e-9756-d0c7ca16c3b0))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dc7))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dc7))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dc9))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dc9))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -38568,8 +38575,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid edf8f56a-3cce-4131-8ecd-e0d0d4b34acc))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb397c))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb397c))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb397e))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb397e))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -38682,6 +38689,36 @@
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
           (reference "C41") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 68.834 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 14b5b76b-14b9-4368-9534-7e72d6f8ad58)
+    (property "Reference" "#PWR015" (at 68.834 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 68.961 66.7512 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 68.834 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (at 68.834 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 7e2c107b-8480-4f7d-bdd2-917ff910e5bf))
+    (instances
+      (project "CosmicWatch"
+        (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "DC-DC-booster"
+        (path "/ee3fefaa-818f-4207-9a53-d175ff74ab66"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -40005,8 +40042,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bc102685-5f3d-4b70-8d99-7d79cc7465e1))
-    (pin "2" (uuid 0f8ef35e-b7b7-4891-8774-388794b3dfd8))
-    (pin "2" (uuid 0f8ef35e-b7b7-4891-8774-388794b3dfd8))
+    (pin "2" (uuid 0f8ef35e-b7b7-4891-8774-388794b3dfda))
+    (pin "2" (uuid 0f8ef35e-b7b7-4891-8774-388794b3dfda))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -40488,7 +40525,7 @@
     (property "Reference" "C2" (at 81.28 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2uF" (at 81.28 62.23 0)
+    (property "Value" "10uF" (at 81.28 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 82.2452 63.5 0)
@@ -40508,6 +40545,32 @@
       (project "DC-DC-booster"
         (path "/ee3fefaa-818f-4207-9a53-d175ff74ab66"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "device:C") (at 68.834 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e3175abe-81b7-4a5d-a900-98cedef7c432)
+    (property "Reference" "C7" (at 69.469 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 69.596 61.976 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 69.7992 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 68.834 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 7768d48f-58e9-46fc-b165-db6d12677daa))
+    (pin "2" (uuid 37f0dd50-b008-4e86-ae08-688efa615dee))
+    (instances
+      (project "CosmicWatch"
+        (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -40613,8 +40676,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce3060e3-33b5-45d9-9a0c-4f7de2559958))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2e5))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2e5))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2e7))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2e7))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -40670,8 +40733,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 99dbeaae-9b3d-4807-a656-ba0b5b771618))
-    (pin "2" (uuid e8c1e05a-7dec-4397-8185-1a36f2133fff))
-    (pin "2" (uuid e8c1e05a-7dec-4397-8185-1a36f2133fff))
+    (pin "2" (uuid e8c1e05a-7dec-4397-8185-1a36f2134001))
+    (pin "2" (uuid e8c1e05a-7dec-4397-8185-1a36f2134001))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
