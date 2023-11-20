@@ -36023,8 +36023,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6549ae1c-1cc1-4f5e-9756-d0c7ca16c3b0))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd1))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd1))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd2))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd2))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -36519,8 +36519,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid edf8f56a-3cce-4131-8ecd-e0d0d4b34acc))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb3986))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb3986))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb3987))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb3987))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -36782,7 +36782,7 @@
     (property "Reference" "C28" (at 213.995 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10n" (at 214.63 119.38 0)
+    (property "Value" "0.1uF" (at 214.63 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 213.6648 118.11 0)
@@ -37725,7 +37725,7 @@
     (property "Reference" "R12" (at 139.7 129.032 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100" (at 139.7 127 90)
+    (property "Value" "1k" (at 139.7 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 139.7 125.222 90)
@@ -38477,7 +38477,7 @@
     (property "Reference" "C23" (at 122.555 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10n" (at 124.46 113.03 0)
+    (property "Value" "0.1uF" (at 124.46 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 122.2248 111.76 0)
@@ -38738,8 +38738,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce3060e3-33b5-45d9-9a0c-4f7de2559958))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2ef))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2ef))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f0))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f0))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
