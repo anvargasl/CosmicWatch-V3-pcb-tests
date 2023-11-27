@@ -491,7 +491,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
-    "plot_directory": "../../../../../../Desktop/",
+    "plot_directory": "/Users/saxani/Desktop/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
