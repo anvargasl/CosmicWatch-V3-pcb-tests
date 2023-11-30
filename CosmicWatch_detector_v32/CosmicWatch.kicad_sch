@@ -50417,8 +50417,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6549ae1c-1cc1-4f5e-9756-d0c7ca16c3b0))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd5))
-    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd5))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd6))
+    (pin "2" (uuid 7dfbc751-b931-4bc9-a8ca-8265b0e80dd6))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -50882,8 +50882,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid edf8f56a-3cce-4131-8ecd-e0d0d4b34acc))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb398a))
-    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb398a))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb398b))
+    (pin "2" (uuid abee040d-6198-4d65-bb0b-4b5a38eb398b))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -53126,8 +53126,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2e1bd981-a05c-46cb-9b48-18b8ee2b4457))
-    (pin "2" (uuid 0d2f3ef0-c8d4-4c30-8a75-ffbf93a09746))
-    (pin "2" (uuid 0d2f3ef0-c8d4-4c30-8a75-ffbf93a09746))
+    (pin "2" (uuid 0d2f3ef0-c8d4-4c30-8a75-ffbf93a09747))
+    (pin "2" (uuid 0d2f3ef0-c8d4-4c30-8a75-ffbf93a09747))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
@@ -53856,8 +53856,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce3060e3-33b5-45d9-9a0c-4f7de2559958))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f3))
-    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f3))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f4))
+    (pin "2" (uuid 197cbb76-7a46-4b72-aa04-1b7c1be0a2f4))
     (instances
       (project "CosmicWatch"
         (path "/4ba73f5d-b469-4168-abd4-8f6ff03fbc45"
