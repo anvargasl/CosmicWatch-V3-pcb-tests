@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.kicad_sch</source>
+    <date>Sunday, May 29, 2022 at 07:03:59 AM</date>
+    <tool>Eeschema (6.0.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CosmicWatch V3 detector</title>
+        <company/>
+        <rev>14</rev>
+        <date>2020-09-08</date>
+        <source>Muv8_Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cda74c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057bcd6b8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f472143</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a7520c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef18fd3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061422a8a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006082fc0f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061422a90</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617aa91c</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006141d236</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>33p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000614329fd</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>33p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061432f50</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>5p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617f5f63</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062926e09</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb7d911</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb7ddac</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb7dedd</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb72387</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cdc2a8</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>5p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d7eac1</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>5p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616f5590</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>6.8uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="CP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005edd7198</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061db97c3</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062282010</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f489e4f</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062926e0f</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>NA</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f567423</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062926e15</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a558b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a5591</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a5597</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a5612</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a5618</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a561e</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7f38</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>2nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000612b6a24</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061afab06</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7efd</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>MyFootprints:Diode</footprint>
+      <libsource lib="device" part="D_Schottky" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f3f11c4</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47uH</value>
+      <footprint>MyFootprints:LQH32C</footprint>
+      <libsource lib="device" part="INDUCTOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000581142ec</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>INDUCTOR</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="INDUCTOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061422a9e</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>INDUCTOR</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="INDUCTOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060877a7f</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>INDUCTOR</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="INDUCTOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e07410</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>MyFootprints:PinHeader4_bigger_SiPM</footprint>
+      <libsource lib="conn" part="CONN_01X04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616692de</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000614c9ccf</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616ac114</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe9a02</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X02</value>
+      <footprint>MyFootprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006267a364</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X08</value>
+      <footprint>MyFootprints:8_pin_connector_</footprint>
+      <libsource lib="conn" part="CONN_01X08" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615b9aa8</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:GND_circle</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a07dc9</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:GND_circle</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a6f1b6</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X08</value>
+      <footprint>MyFootprints:8_pin_connector_</footprint>
+      <libsource lib="conn" part="CONN_01X08" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616067c3</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_02X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006150f5ed</tstamps>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162d551</tstamps>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a752a0</tstamps>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162da10</tstamps>
+    </comp>
+    <comp ref="P14">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006169b362</tstamps>
+    </comp>
+    <comp ref="P15">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061466a68</tstamps>
+    </comp>
+    <comp ref="P16">
+      <value>CONN_01X02</value>
+      <footprint>MyFootprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062698340</tstamps>
+    </comp>
+    <comp ref="P17">
+      <value>CONN_01X02</value>
+      <footprint>MyFootprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000626b6a81</tstamps>
+    </comp>
+    <comp ref="P18">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000627fe6b3</tstamps>
+    </comp>
+    <comp ref="P19">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:logo</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061090981</tstamps>
+    </comp>
+    <comp ref="P20">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119c01f</tstamps>
+    </comp>
+    <comp ref="P21">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119bde2</tstamps>
+    </comp>
+    <comp ref="P22">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119bc38</tstamps>
+    </comp>
+    <comp ref="P23">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119b9a7</tstamps>
+    </comp>
+    <comp ref="P24">
+      <value>CONN_01X02</value>
+      <footprint>Crystals:Crystal_Round_d1.0mm_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061979629</tstamps>
+    </comp>
+    <comp ref="P25">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch1.27mm</footprint>
+      <libsource lib="conn" part="CONN_01X08" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613bb6e6</tstamps>
+    </comp>
+    <comp ref="P26">
+      <value>CONN_01X02</value>
+      <footprint>MyFootprints:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000626b6a87</tstamps>
+    </comp>
+    <comp ref="P27">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000627fe6b9</tstamps>
+    </comp>
+    <comp ref="P29">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a55da</tstamps>
+    </comp>
+    <comp ref="P30">
+      <value>CONN_01X01</value>
+      <footprint>MyFootprints:SiPM_PCB_Standoff</footprint>
+      <libsource lib="conn" part="CONN_01X01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a55ce</tstamps>
+    </comp>
+    <comp ref="P32">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a55e0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>6.65k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005811473c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>147k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058114685</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>49.9</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613b67e5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eed8b6d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a94401</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c2e246</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006131c70d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629b9cc5</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>150</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617f4a89</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ddfff9</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>49.9</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006154d177</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617f5a71</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>150</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616f5acc</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061722e40</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ccfb9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617b3178</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000572b7925</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617e588f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615bf388</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb8df36</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ddfb07</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a5647</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>49.9</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7eba</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>49.9</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7ee4</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1c4cd2</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>49.9</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7ed7</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>250k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7f11</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7f1e</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c04fc</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f155754</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7f18</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4.7k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617cab9d</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee351c1</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>100</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f3fc582</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1ad9cc</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f13c64b</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>MyFootprints:reset_button</footprint>
+      <libsource lib="device" part="SW_PUSH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e8d96c2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX5025</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="MyLibrary" part="MAX5025" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f14d195</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SiPM_MicroFJ−300XX−TSV</value>
+      <footprint>MyFootprints:SiPM_MicroFJ−300XX−TSV</footprint>
+      <libsource lib="MyLibrary" part="SiPM_MicroFJ−300XX−TSV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000627f13d3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MMCX</value>
+      <footprint>MyFootprints:SMA_side_mount_sideways</footprint>
+      <libsource lib="MyLibrary" part="MMCX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006216ee83</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>5-Lead_TSOT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="MyLibrary" part="5-Lead_TSOT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cd107f</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>RasberryPi_Pico</value>
+      <footprint>MyFootprints:RPi_Pico_SMD_TH_noThroughHoles</footprint>
+      <libsource lib="MyLibrary" part="RasberryPi_Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608a6380</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LT1807-MyLibrary</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="Muv8_Main-rescue" part="LT1807-MyLibrary" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c469e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>bmp280</value>
+      <footprint>MyFootprints:BMP280</footprint>
+      <libsource lib="MyLibrary" part="bmp280" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1581de</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>sd_card_socket</value>
+      <footprint>MyFootprints:sd_card</footprint>
+      <libsource lib="Muv8_Main-rescue" part="sd_card_socket" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059b444a8</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>2NPNMBT6429DW1T1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="MyLibrary" part="2NPNMBT6429DW1T1G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061746b67</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>SiPM_AFBR-S4N33C013</value>
+      <footprint>MyFootprints:SiPM_S4N33C013</footprint>
+      <libsource lib="MyLibrary" part="SiPM_AFBR-S4N33C013" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629b264c</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>battery</value>
+      <footprint>MyFootprints:Coin_battery_holder_CR1632</footprint>
+      <libsource lib="MyLibrary" part="battery" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006179bc52</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>LTC6752</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="MyLibrary" part="LTC6752" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628a7f77</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>TS5A1066</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="MyLibrary" part="TS5A1066" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061af90a4</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>DS1307</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="MyLibrary" part="DS1307" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a7a93</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="MyLibrary_2NPNMBT6429DW1T1G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_2NPNMBT6429DW1T1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_5-Lead_TSOT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_5-Lead_TSOT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="Sense" type="input"/>
+        <pin num="5" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_DS1307">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_DS1307</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBat" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="OUT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_LTC6752">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_LTC6752</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q" type="input"/>
+        <pin num="2" name="VEE" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-IN" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_MAX5025">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_MAX5025</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="VCC" type="input"/>
+        <pin num="6" name="LX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_MMCX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_MMCX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_RasberryPi_Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_RasberryPi_Pico</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="input"/>
+        <pin num="2" name="GP1" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GP2" type="input"/>
+        <pin num="5" name="GP3" type="input"/>
+        <pin num="6" name="GP4" type="input"/>
+        <pin num="7" name="GP5" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="GP6" type="input"/>
+        <pin num="10" name="GP7" type="input"/>
+        <pin num="11" name="GP8" type="input"/>
+        <pin num="12" name="GP9" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="GP10" type="input"/>
+        <pin num="15" name="GP11" type="input"/>
+        <pin num="16" name="GP12" type="input"/>
+        <pin num="17" name="GP13" type="input"/>
+        <pin num="18" name="GND" type="input"/>
+        <pin num="19" name="GP14" type="input"/>
+        <pin num="20" name="GP15" type="input"/>
+        <pin num="21" name="GP18" type="input"/>
+        <pin num="22" name="GP17" type="input"/>
+        <pin num="23" name="GND" type="input"/>
+        <pin num="24" name="GP18" type="input"/>
+        <pin num="25" name="GP19" type="input"/>
+        <pin num="26" name="GP20" type="input"/>
+        <pin num="27" name="GP21" type="input"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="29" name="GP22" type="input"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="ADC0" type="input"/>
+        <pin num="32" name="ADC1" type="input"/>
+        <pin num="33" name="AGND" type="input"/>
+        <pin num="34" name="ADC2" type="input"/>
+        <pin num="35" name="ADC_VREF" type="input"/>
+        <pin num="36" name="3v3_OUT" type="input"/>
+        <pin num="37" name="3v3_EN" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="VSYS" type="input"/>
+        <pin num="40" name="VBus" type="input"/>
+        <pin num="41" name="A2_SCL1" type="input"/>
+        <pin num="42" name="A3_SDA1" type="input"/>
+        <pin num="43" name="A4_SDA0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_SiPM_AFBR-S4N33C013">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_SiPM_AFBR-S4N33C013</field>
+      </fields>
+      <pins>
+        <pin num="1" name="a1" type="input"/>
+        <pin num="2" name="c2" type="input"/>
+        <pin num="3" name="c1" type="input"/>
+        <pin num="4" name="a2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_SiPM_MicroFJ−300XX−TSV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_SiPM_MicroFJ−300XX−TSV</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="C" type="input"/>
+        <pin num="A2" name="GND" type="input"/>
+        <pin num="A3" name="GND" type="input"/>
+        <pin num="B1" name="A" type="input"/>
+        <pin num="B3" name="F" type="input"/>
+        <pin num="C1" name="GND" type="input"/>
+        <pin num="C2" name="GND" type="input"/>
+        <pin num="C3" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_TS5A1066">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_TS5A1066</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO" type="input"/>
+        <pin num="2" name="COM" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="IN" type="input"/>
+        <pin num="5" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_battery">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MyLibrary_bmp280">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MyLibrary_bmp280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDA" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="SDO" type="input"/>
+        <pin num="6" name="VDDIO" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_02X02">
+      <footprints>
+        <fp>Pin_Header_Straight_2X02</fp>
+        <fp>Pin_Header_Angled_2X02</fp>
+        <fp>Socket_Strip_Straight_2X02</fp>
+        <fp>Socket_Strip_Angled_2X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="conn_CONN_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">device_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_CP1">
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">device_CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_D_Schottky">
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">device_D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">device_INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">device_R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="device_SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">device_SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Muv8_Main-rescue" part="LT1807-MyLibrary">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1807-MyLibrary</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="input"/>
+        <pin num="2" name="1IN" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="V-" type="input"/>
+        <pin num="5" name="2IN+" type="input"/>
+        <pin num="6" name="2IN" type="input"/>
+        <pin num="7" name="2OUT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Muv8_Main-rescue" part="sd_card_socket">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">sd_card_socket</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nc" type="input"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="D0" type="input"/>
+        <pin num="8" name="RSV" type="input"/>
+        <pin num="9" name="Detect" type="input"/>
+        <pin num="10" name="Sense" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Muv8_Main-rescue">
+      <uri>/Users/HAL9000/Dropbox (MIT)/CosmicWatch/Detector_Versions/CosmicWatch_v4/KiCAD (electronics stuff)/CosmicWatch_detector_v20/Muv8_Main-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3V">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="VCC" pintype="input"/>
+      <node ref="U5" pin="36" pinfunction="3v3_OUT" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="VDDIO" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="VDD" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="AMP1">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="P17" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="2IN+" pintype="input"/>
+    </net>
+    <net code="3" name="CS">
+      <node ref="U5" pin="7" pinfunction="GP5" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="4" name="CoincidentPin1">
+      <node ref="P9" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="GP21" pintype="input"/>
+    </net>
+    <net code="5" name="CoincidentPin2">
+      <node ref="P9" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="GP22" pintype="input"/>
+    </net>
+    <net code="6" name="FAST">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P16" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="7" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="P1" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P10" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P10" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P11" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P15" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P15" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P18" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P21" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P22" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P23" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P25" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P27" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P3" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P32" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P4" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P6" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P7" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P8" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P9" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PGND" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U11" pin="2" pintype="input"/>
+      <node ref="U12" pin="2" pinfunction="VEE" pintype="input"/>
+      <node ref="U13" pin="2" pinfunction="COM" pintype="input"/>
+      <node ref="U13" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="A2" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="A3" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="C1" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="C2" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="18" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="23" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="24" pinfunction="GP18" pintype="input"/>
+      <node ref="U5" pin="25" pinfunction="GP19" pintype="input"/>
+      <node ref="U5" pin="28" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="33" pinfunction="AGND" pintype="input"/>
+      <node ref="U5" pin="38" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="V-" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="8" name="HV">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="MISO">
+      <node ref="U5" pin="6" pinfunction="GP4" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="D0" pintype="input"/>
+    </net>
+    <net code="10" name="MOSI">
+      <node ref="U5" pin="5" pinfunction="GP3" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="Vin" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SHDN" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="P24" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="X1" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="P24" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="X2" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="1OUT" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="1IN" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="P3" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U2" pin="A1" pinfunction="C" pintype="input"/>
+      <node ref="U2" pin="C3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Sense" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="P3" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="U2" pin="B3" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="P32" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="c2" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="c1" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LX" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="40" pinfunction="VBus" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="B1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(P10-Pad2)">
+      <node ref="P10" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(P10-Pad4)">
+      <node ref="P10" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(P16-Pad1)">
+      <node ref="P16" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P17" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P26" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P5" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="Sig" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(P25-Pad1)">
+      <node ref="P25" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(P25-Pad2)">
+      <node ref="P25" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P6" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(P25-Pad3)">
+      <node ref="P25" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P6" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(P25-Pad4)">
+      <node ref="P25" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P6" pin="4" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(P25-Pad5)">
+      <node ref="P25" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="P6" pin="5" pinfunction="P5" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(P25-Pad7)">
+      <node ref="P25" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="P6" pin="7" pinfunction="P7" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(P25-Pad8)">
+      <node ref="P25" pin="8" pinfunction="P8" pintype="passive"/>
+      <node ref="P6" pin="8" pinfunction="P8" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(P32-Pad4)">
+      <node ref="P32" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="a1" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="1IN+" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="3" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="6" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="GP12" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="2IN" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U12" pin="5" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="Detect" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="GP13" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(R43-Pad2)">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SDO" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="2OUT" pintype="input"/>
+      <node ref="U9" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="5" pintype="input"/>
+    </net>
+    <net code="57" name="RX">
+      <node ref="P9" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="GP17" pintype="input"/>
+    </net>
+    <net code="58" name="SCK">
+      <node ref="U5" pin="4" pinfunction="GP2" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="59" name="SCL">
+      <node ref="P15" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="P15" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P4" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P9" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U5" pin="20" pinfunction="GP15" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="60" name="SDA">
+      <node ref="P15" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="P15" pin="8" pinfunction="P8" pintype="passive"/>
+      <node ref="P4" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P9" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="SDA" pintype="input"/>
+      <node ref="U5" pin="19" pinfunction="GP14" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="61" name="SENSE">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GP1" pintype="input"/>
+    </net>
+    <net code="62" name="SNG1">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="P5" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="NO" pintype="input"/>
+      <node ref="U5" pin="32" pinfunction="ADC1" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="4" pintype="input"/>
+    </net>
+    <net code="63" name="SiPM">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="P1" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P26" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="TRG">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="Q" pintype="input"/>
+      <node ref="U5" pin="15" pinfunction="GP11" pintype="input"/>
+    </net>
+    <net code="65" name="TX">
+      <node ref="P9" pin="8" pinfunction="P8" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="GP18" pintype="input"/>
+    </net>
+    <net code="66" name="TriggerReset">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="ADC0" pintype="input"/>
+    </net>
+    <net code="67" name="VBAT">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="input"/>
+      <node ref="U14" pin="3" pinfunction="VBat" pintype="input"/>
+    </net>
+    <net code="68" name="VBat">
+      <node ref="U5" pin="39" pinfunction="VSYS" pintype="input"/>
+    </net>
+    <net code="69" name="VCC">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P15" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P15" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P9" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="V+" pintype="input"/>
+      <node ref="U14" pin="8" pinfunction="VCC" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="70" name="VREF">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="Vout" pintype="input"/>
+      <node ref="U5" pin="35" pinfunction="ADC_VREF" pintype="input"/>
+    </net>
+    <net code="71" name="unconnected-(P2-Pad1)">
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(P12-Pad1)">
+      <node ref="P12" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(P13-Pad1)">
+      <node ref="P13" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(P14-Pad1)">
+      <node ref="P14" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(P19-Pad1)">
+      <node ref="P19" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(P20-Pad1)">
+      <node ref="P20" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(P29-Pad1)">
+      <node ref="P29" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(P30-Pad1)">
+      <node ref="P30" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(P32-Pad1)">
+      <node ref="P32" pin="1" pinfunction="P1" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="GP0" pintype="input+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="GP6" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="GP7" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="GP8" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="GP9" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="GP10" pintype="input+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U5-Pad26)">
+      <node ref="U5" pin="26" pinfunction="GP20" pintype="input+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U5-Pad34)">
+      <node ref="U5" pin="34" pinfunction="ADC2" pintype="input+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U5-Pad37)">
+      <node ref="U5" pin="37" pinfunction="3v3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U5-Pad41)">
+      <node ref="U5" pin="41" pinfunction="A2_SCL1" pintype="input+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U5-Pad42)">
+      <node ref="U5" pin="42" pinfunction="A3_SDA1" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U5-Pad43)">
+      <node ref="U5" pin="43" pinfunction="A4_SDA0" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U8-Pad1)">
+      <node ref="U8" pin="1" pinfunction="nc" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U8-Pad8)">
+      <node ref="U8" pin="8" pinfunction="RSV" pintype="input+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U8-Pad10)">
+      <node ref="U8" pin="10" pinfunction="Sense" pintype="input+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="a2" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U14-Pad7)">
+      <node ref="U14" pin="7" pinfunction="OUT" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
