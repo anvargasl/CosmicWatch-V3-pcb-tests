@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "My_Symbol_Library")(type "KiCad")(uri "${MY_SYMBOL_LIBRARY}/Mylibrary.kicad_sym")(options "")(descr ""))
-)
