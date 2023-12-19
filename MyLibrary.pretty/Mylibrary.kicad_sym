@@ -8488,7 +8488,7 @@
         (number "20" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 12.7 -31.75 180) (length 5.08)
-        (name "GP18" (effects (font (size 1.27 1.27))))
+        (name "GP16" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 12.7 -29.21 180) (length 5.08)
