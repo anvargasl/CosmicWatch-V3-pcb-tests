@@ -62,7 +62,7 @@ plt.axvline(x=landing_t, label="landing, Bogotá", color=color[2])
 #plt.axvline(x=finish_t)
 
 plt.xlabel("t [h]")
-plt.ylabel("Muon rate [c/s]")
+plt.ylabel("event rate [c/s]")
 
 plt.title(fname)
 
